@@ -1,0 +1,49 @@
+.join {
+  padding: 20px 0;
+
+  .dumbell-icon {
+    color: $primary;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  h5 {
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+
+  .join-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+
+  .join-info {
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+    background-color: $primary;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0.8rem 20px;
+    color: $white;
+
+    div {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    p {
+      margin-bottom: 0;
+      margin-left: 0.8rem;
+    }
+  }
+
+  .join-buttons {
+    display: flex;
+    justify-content: space-between;
+    a {
+      width: 10rem;
+    }
+  }
+}

@@ -4,40 +4,49 @@ import { Link } from "react-router-dom";
 export default class Join extends React.PureComponent {
   render() {
     return (
-      <div>
-        <div>logo</div>
-        <h2>See what's happening in the world right now.</h2>
-
-        <p>Join FitTogether today.</p>
-        <div>
-          <Link to="/register">Sign up</Link>
-        </div>
-        <div>
-          <Link to="/login">Log in</Link>
-        </div>
-
-        <div>
+      <div className="join">
+        <div className="container">
           <div>
-            <span>icon</span>
-            <p>Follow your interests.</p>
+            <i className="fas fa-dumbbell dumbell-icon" />
           </div>
-          <div>
-            <span>icon</span>
-            <p>Hear what people are talking about.</p>
-          </div>
-          <div>
-            <span>icon</span>
-            <p>Join the conversation.</p>
-          </div>
-        </div>
+          <h5>See what's happening in the world right now.</h5>
 
-        <div>
-          <span>
-            <Link to="/register">Sign up</Link>
-          </span>
-          <span>
-            <Link to="/login">Log in</Link>
-          </span>
+          <p className="join-text">Join FitTogether today.</p>
+
+          <Link className="btn btn-block btn-primary" to="/register">
+            Sign up
+          </Link>
+          <Link className="btn btn-block btn-outline-primary" to="/login">
+            Log in
+          </Link>
+
+          <div className="join-info">
+            <div>
+              <i className="fas fa-search" />
+              <p>Follow your interests.</p>
+            </div>
+            <div>
+              <i className="fas fa-user-friends" />
+              <p>Hear what people are talking about.</p>
+            </div>
+            <div>
+              <i className="fas fa-comment" />
+              <p>Join the conversation.</p>
+            </div>
+          </div>
+
+          <div className="join-buttons">
+            <span>
+              <Link className="btn btn-primary" to="/register">
+                Sign up
+              </Link>
+            </span>
+            <span>
+              <Link className="btn btn-outline-primary" to="/login">
+                Log in
+              </Link>
+            </span>
+          </div>
         </div>
       </div>
     );
