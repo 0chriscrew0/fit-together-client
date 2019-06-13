@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
+import "./css/main.css";
 import Join from "./components/User/Join";
 
 const App: React.FC = () => {
