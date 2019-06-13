@@ -1,15 +1,19 @@
 .join {
   padding: 20px 0;
 
+  .join-left {
+    padding: 0;
+  }
+
   .dumbell-icon {
     color: $primary;
     font-size: 24px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
   }
 
   h5 {
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: 2.6rem;
   }
 
   .join-text {
@@ -22,15 +26,13 @@
     margin-top: 1.6rem;
     margin-bottom: 2.4rem;
     background-color: $primary;
-    margin-left: -20px;
-    margin-right: -20px;
     padding: 0.8rem 20px;
     color: $white;
 
-    div {
+    .join-info-item {
       display: flex;
       align-items: center;
-      padding: 1rem;
+      padding: 1rem 1.6rem;
     }
 
     p {
@@ -43,7 +45,60 @@
     display: flex;
     justify-content: space-between;
     a {
-      width: 10rem;
+      width: 45%;
+    }
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: 0;
+
+    .join-row {
+      height: 100vh;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+
+    .join-left,
+    .join-right {
+      height: 40%;
+    }
+
+    .join-left {
+      height: 100%;
+      padding: 0;
+    }
+
+    .join-info {
+      margin: 0;
+      height: 100%;
+      display: flex;
+      padding: 0;
+      .join-info-inner {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 1.4rem;
+        align-self: center;
+        div {
+          width: 100%;
+        }
+      }
+    }
+
+    .join-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .join-main {
+      margin: auto;
+      max-width: 300px;
     }
   }
 }
