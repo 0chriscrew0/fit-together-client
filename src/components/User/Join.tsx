@@ -12,9 +12,9 @@ export default class Join extends React.PureComponent {
                 <div>
                   <i className="fas fa-dumbbell dumbell-icon" />
                 </div>
-                <h5>See what's happening in the world right now.</h5>
+                <h5>The ultimate online fitness experience</h5>
 
-                <p className="join-text">Join FitTogether today.</p>
+                <p className="join-text">Join Fit Together today.</p>
 
                 <Link className="btn btn-block btn-primary" to="/register">
                   Sign up
@@ -30,15 +30,15 @@ export default class Join extends React.PureComponent {
                 <div className="join-info-inner">
                   <div className="join-info-item">
                     <i className="fas fa-search" />
-                    <p>Follow your interests.</p>
+                    <p>Search for the perfect routines.</p>
                   </div>
                   <div className="join-info-item">
                     <i className="fas fa-user-friends" />
-                    <p>Hear what people are talking about.</p>
+                    <p>Follow the best workout creators.</p>
                   </div>
                   <div className="join-info-item">
                     <i className="fas fa-comment" />
-                    <p>Join the conversation.</p>
+                    <p>Share your thoughts.</p>
                   </div>
                 </div>
               </div>
