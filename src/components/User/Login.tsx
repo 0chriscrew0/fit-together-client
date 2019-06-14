@@ -8,11 +8,9 @@ export default class Login extends React.PureComponent {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div>
-                <i className="fas fa-dumbbell dumbell-icon" />
-              </div>
+              <i className="fas fa-dumbbell dumbell-icon" />
 
-              <h2>Log in to FitTogether</h2>
+              <h4>Log in to FitTogether</h4>
 
               <div className="form-group">
                 <label htmlFor="email">Email</label>
@@ -38,7 +36,7 @@ export default class Login extends React.PureComponent {
               <div className="login-links">
                 <Link to="/forgot-password">Forgot Password?</Link>
                 <span>&#183;</span>
-                <Link to="/register">Sign up for FitTogether</Link>
+                <Link to="/register">Create Account</Link>
               </div>
             </div>
           </div>

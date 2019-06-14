@@ -7570,3 +7570,28 @@ body {
 @media (min-width: 1200px) {
   .register .row {
     max-width: 900px; } }
+
+.login {
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem; }
+  .login .dumbell-icon {
+    font-size: 2.2rem;
+    color: #4ac948; }
+  .login h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    font-size: 1.2rem; }
+  .login .form-group {
+    text-align: left; }
+    .login .form-group label {
+      margin-bottom: 0; }
+  .login button {
+    margin-top: 1.6rem;
+    margin-bottom: 1.8rem; }
+  .login .login-links a {
+    font-size: 1rem;
+    color: #4ac948; }
+  .login .login-links span {
+    margin: 0 0.2rem; }
