@@ -7509,3 +7509,39 @@ body {
       .join .join-main {
         margin: auto;
         max-width: 300px; } }
+
+.register .register-form {
+  padding: 2rem 1.4rem; }
+  .register .register-form h2 {
+    margin-bottom: 1.4rem;
+    color: #4ac948;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600; }
+  .register .register-form .form-group label {
+    margin-bottom: 0;
+    font-size: 0.8rem; }
+  .register .register-form .form-check {
+    margin-top: 0.4rem;
+    margin-bottom: 1rem; }
+    .register .register-form .form-check label {
+      font-size: 0.8rem; }
+      .register .register-form .form-check label a {
+        color: #4ac948; }
+
+.register .register-info {
+  padding: 1.8rem 1.4rem;
+  background-color: #4ac948;
+  color: #f9f9f9;
+  font-size: 0.8rem; }
+  .register .register-info h2 {
+    margin-bottom: 1.4rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600; }
+  .register .register-info .btn-white {
+    background-color: #f9f9f9;
+    color: #4ac948;
+    margin-top: 0.6rem; }

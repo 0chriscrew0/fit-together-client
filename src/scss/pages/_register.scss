@@ -1,0 +1,51 @@
+.register {
+  .register-form {
+    padding: 2rem 1.4rem;
+
+    h2 {
+      margin-bottom: 1.4rem;
+      color: $primary;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      letter-spacing: 0.1rem;
+      font-weight: 600;
+    }
+
+    .form-group label {
+      margin-bottom: 0;
+      font-size: 0.8rem;
+    }
+
+    .form-check {
+      margin-top: 0.4rem;
+      margin-bottom: 1rem;
+      label {
+        font-size: 0.8rem;
+        a {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .register-info {
+    padding: 1.8rem 1.4rem;
+    background-color: $primary;
+    color: $white;
+    font-size: 0.8rem;
+
+    h2 {
+      margin-bottom: 1.4rem;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      letter-spacing: 0.1rem;
+      font-weight: 600;
+    }
+
+    .btn-white {
+      background-color: $white;
+      color: $primary;
+      margin-top: 0.6rem;
+    }
+  }
+}
