@@ -1,6 +1,7 @@
 .register {
   .register-form {
     padding: 2rem 1.4rem;
+    background-color: $white;
 
     h2 {
       margin-bottom: 1.4rem;
@@ -44,8 +45,40 @@
 
     .btn-white {
       background-color: $white;
-      color: $primary;
+      color: $black;
       margin-top: 0.6rem;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 100vh;
+    background-color: $secondary;
+
+    .container-fluid {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .row {
+      flex-direction: row-reverse;
+      max-width: 600px;
+      -webkit-box-shadow: 0 10px 6px -6px #777;
+      -moz-box-shadow: 0 10px 6px -6px #777;
+      box-shadow: 0 10px 6px -6px #777;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .row {
+      max-width: 700px;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    .row {
+      max-width: 900px;
     }
   }
 }
