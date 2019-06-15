@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/0chriscrew0/fit-together.git/static/css/main.1f66989c.chunk.css",
-    "main.js": "/0chriscrew0/fit-together.git/static/js/main.f629611b.chunk.js",
-    "main.js.map": "/0chriscrew0/fit-together.git/static/js/main.f629611b.chunk.js.map",
-    "runtime~main.js": "/0chriscrew0/fit-together.git/static/js/runtime~main.3d2e2122.js",
-    "runtime~main.js.map": "/0chriscrew0/fit-together.git/static/js/runtime~main.3d2e2122.js.map",
-    "static/js/2.ef762325.chunk.js": "/0chriscrew0/fit-together.git/static/js/2.ef762325.chunk.js",
-    "static/js/2.ef762325.chunk.js.map": "/0chriscrew0/fit-together.git/static/js/2.ef762325.chunk.js.map",
-    "index.html": "/0chriscrew0/fit-together.git/index.html",
-    "precache-manifest.3dc20bab11df8b832f587f6954ae51dc.js": "/0chriscrew0/fit-together.git/precache-manifest.3dc20bab11df8b832f587f6954ae51dc.js",
-    "service-worker.js": "/0chriscrew0/fit-together.git/service-worker.js",
-    "static/css/main.1f66989c.chunk.css.map": "/0chriscrew0/fit-together.git/static/css/main.1f66989c.chunk.css.map",
-    "static/media/FitTogether-logo-v2.png": "/0chriscrew0/fit-together.git/static/media/FitTogether-logo-v2.1b858da5.png"
+    "main.css": "/fit-together/static/css/main.1f66989c.chunk.css",
+    "main.js": "/fit-together/static/js/main.8757827a.chunk.js",
+    "main.js.map": "/fit-together/static/js/main.8757827a.chunk.js.map",
+    "runtime~main.js": "/fit-together/static/js/runtime~main.100d52f5.js",
+    "runtime~main.js.map": "/fit-together/static/js/runtime~main.100d52f5.js.map",
+    "static/js/2.ef762325.chunk.js": "/fit-together/static/js/2.ef762325.chunk.js",
+    "static/js/2.ef762325.chunk.js.map": "/fit-together/static/js/2.ef762325.chunk.js.map",
+    "index.html": "/fit-together/index.html",
+    "precache-manifest.c7b7fb8bde1a9862eb7500281646c01b.js": "/fit-together/precache-manifest.c7b7fb8bde1a9862eb7500281646c01b.js",
+    "service-worker.js": "/fit-together/service-worker.js",
+    "static/css/main.1f66989c.chunk.css.map": "/fit-together/static/css/main.1f66989c.chunk.css.map",
+    "static/media/FitTogether-logo-v2.png": "/fit-together/static/media/FitTogether-logo-v2.1b858da5.png"
   }
 }
