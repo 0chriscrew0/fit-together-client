@@ -7594,4 +7594,18 @@ body {
     font-size: 1rem;
     color: #4ac948; }
   .login .login-links span {
-    margin: 0 0.2rem; }
+    margin: 0 0.2rem;
+    color: #4ac948; }
+  @media (min-width: 768px) {
+    .login {
+      background-color: #e6ecf0;
+      padding: 0; }
+      .login .row {
+        height: 100vh;
+        align-items: center; }
+      .login .col-md-6 {
+        background-color: #f9f9f9;
+        padding: 1.6rem;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777; } }

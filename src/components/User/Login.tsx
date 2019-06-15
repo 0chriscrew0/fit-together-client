@@ -7,7 +7,7 @@ export default class Login extends React.PureComponent {
       <div className="login">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 mx-auto">
               <i className="fas fa-dumbbell dumbell-icon" />
 
               <h4>Log in to FitTogether</h4>
