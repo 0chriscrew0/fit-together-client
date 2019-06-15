@@ -7442,10 +7442,9 @@ body {
   padding: 20px 0; }
   .join .join-left {
     padding: 0; }
-  .join .dumbell-icon {
-    color: #4ac948;
-    font-size: 24px;
-    margin-bottom: 1.4rem; }
+  .join .logo {
+    width: 3rem;
+    margin-bottom: 0.6rem; }
   .join h5 {
     font-weight: 600;
     margin-bottom: 2.6rem; }
@@ -7575,9 +7574,8 @@ body {
   text-align: center;
   padding-top: 1.2rem;
   padding-bottom: 1rem; }
-  .login .dumbell-icon {
-    font-size: 2.2rem;
-    color: #4ac948; }
+  .login .logo {
+    width: 3rem; }
   .login h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;

@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
+import Logo from "../../img/FitTogether-logo-v2.png";
+
 export default class Login extends React.PureComponent {
   render() {
     return (
@@ -8,7 +10,11 @@ export default class Login extends React.PureComponent {
         <div className="container">
           <div className="row">
             <div className="col-md-6 mx-auto">
-              <i className="fas fa-dumbbell dumbell-icon" />
+              <img
+                className="img-fluid logo"
+                src={Logo}
+                alt="FitTogether Logo"
+              />
 
               <h4>Log in to FitTogether</h4>
 
