@@ -7438,6 +7438,9 @@ body {
   position: absolute;
   width: 1px; }
 
+.header .logo {
+  width: 2.6rem; }
+
 .join {
   padding: 20px 0; }
   .join .join-left {
