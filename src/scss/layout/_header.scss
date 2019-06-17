@@ -3,7 +3,39 @@
 // -----------------------------------------------------------------------------
 
 .header {
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
   .logo {
-    width: 2.6rem;
+    width: 2.2rem;
+    vertical-align: middle;
+  }
+
+  .user-wrapper {
+    align-self: center;
+    font-size: 0.8rem;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .profile-pic {
+      width: 2.2rem;
+    }
+  }
+
+  .main-wrapper {
+    margin-top: 1rem;
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.4rem;
+    }
+
+    .header-link {
+      display: none;
+    }
   }
 }

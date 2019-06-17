@@ -1,15 +1,16 @@
 import * as React from "react";
 
 import Logo from "../../img/FitTogether-logo-v2.png";
+import ProfilePic from "../../img/profile-pic.jpeg";
 
 export default class Header extends React.PureComponent {
   render() {
     return (
       <header className="header">
-        <nav className="navbar navbar-expand navbar-light bg-light">
-          <div className="container">
-            <div className="row">
-              <div className="col-3 col-md-2 logo-wrapper">
+        <div className="container-fluid">
+          <nav className="navbar navbar-expand navbar-light bg-light px-0">
+            <div className="row w-100 mx-auto">
+              <div className="col-4 col-md-2 logo-wrapper">
                 <a className="navbar-brand" href="#">
                   <img
                     className="img-fluid logo"
@@ -24,75 +25,52 @@ export default class Header extends React.PureComponent {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
+                  <ul className="navbar-nav">
+                    <li className="nav-item">
                       <a className="nav-link" href="#">
-                        Home
+                        <i className="fas fa-home" />{" "}
+                        <span className="header-link">Home</span>
                       </a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#">
-                        Link
+                        <i className="fas fa-dumbbell" />{" "}
+                        <span className="header-link">Workouts</span>
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link disabled" href="#">
-                        Disabled
+                      <a className="nav-link" href="#">
+                        <i className="fas fa-clock" />{" "}
+                        <span className="header-link">Routines</span>
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="#">
+                        <i className="fas fa-utensils" />{" "}
+                        <span className="header-link">Meal Plans</span>
                       </a>
                     </li>
                   </ul>
-                  <form className="form-inline my-2 my-lg-0">
-                    <input
-                      className="form-control mr-sm-2"
-                      type="search"
-                      placeholder="Search"
-                      aria-label="Search"
-                    />
-                    <button
-                      className="btn btn-outline-success my-2 my-sm-0"
-                      type="submit"
-                    >
-                      Search
-                    </button>
-                  </form>
                 </div>
               </div>
 
-              <div className="col-3 col-md-2 order-3 user-wrapper">
+              <div className="col-8 col-md-2 order-3 user-wrapper">
                 <ul className="navbar-nav ml-auto nav-top">
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Dropdown
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Current User
+                      <img
+                        className="img-fluid profile-pic ml-3"
+                        src={ProfilePic}
+                        alt="Your Profile Picture"
+                      />
                     </a>
-                    <div
-                      className="dropdown-menu"
-                      aria-labelledby="navbarDropdown"
-                    >
-                      <a className="dropdown-item" href="#">
-                        Action
-                      </a>
-                      <a className="dropdown-item" href="#">
-                        Another action
-                      </a>
-                      <div className="dropdown-divider" />
-                      <a className="dropdown-item" href="#">
-                        Something else here
-                      </a>
-                    </div>
                   </li>
                 </ul>
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </header>
     );
   }

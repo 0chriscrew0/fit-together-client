@@ -7438,8 +7438,32 @@ body {
   position: absolute;
   width: 1px; }
 
+.header .logo-wrapper {
+  display: flex;
+  align-items: center; }
+
 .header .logo {
-  width: 2.6rem; }
+  width: 2.2rem;
+  vertical-align: middle; }
+
+.header .user-wrapper {
+  align-self: center;
+  font-size: 0.8rem; }
+  .header .user-wrapper ul {
+    display: flex;
+    justify-content: flex-end; }
+  .header .user-wrapper .profile-pic {
+    width: 2.2rem; }
+
+.header .main-wrapper {
+  margin-top: 1rem; }
+  .header .main-wrapper ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem; }
+  .header .main-wrapper .header-link {
+    display: none; }
 
 .join {
   padding: 20px 0; }
