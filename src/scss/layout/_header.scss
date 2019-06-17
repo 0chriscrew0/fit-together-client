@@ -32,6 +32,13 @@
       display: flex;
       justify-content: space-between;
       font-size: 1.4rem;
+      a {
+        padding-bottom: 0;
+        &.active {
+          color: $green !important;
+          border-bottom: solid $green 2px;
+        }
+      }
     }
 
     .header-link {

@@ -7462,6 +7462,11 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 1.4rem; }
+    .header .main-wrapper ul a {
+      padding-bottom: 0; }
+      .header .main-wrapper ul a.active {
+        color: #4ac948 !important;
+        border-bottom: solid #4ac948 2px; }
   .header .main-wrapper .header-link {
     display: none; }
 
@@ -7634,3 +7639,7 @@ body {
         -webkit-box-shadow: 0 10px 6px -6px #777;
         -moz-box-shadow: 0 10px 6px -6px #777;
         box-shadow: 0 10px 6px -6px #777; } }
+
+.feed {
+  height: 100vh;
+  background-color: #e6ecf0; }
