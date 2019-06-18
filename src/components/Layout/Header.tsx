@@ -12,13 +12,13 @@ export default class Header extends React.PureComponent {
           <nav className="navbar navbar-expand navbar-light bg-light px-0 pb-0">
             <div className="row w-100 mx-auto">
               <div className="col-4 col-md-2 logo-wrapper">
-                <a className="navbar-brand" href="#">
+                <NavLink className="navbar-brand" to="/">
                   <img
                     className="img-fluid logo"
                     src={Logo}
                     alt="FitTogether Logo"
                   />
-                </a>
+                </NavLink>
               </div>
 
               <div className="col-12 col-md-8 order-12 order-md-2 main-wrapper">
