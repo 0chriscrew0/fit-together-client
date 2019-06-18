@@ -7470,6 +7470,14 @@ body {
   .header .main-wrapper .header-link {
     display: none; }
 
+@media (min-width: 768px) {
+  .header .logo {
+    width: 2.6rem; }
+  .header .main-wrapper ul {
+    font-size: 1.6rem; }
+  .header .user-wrapper .profile-pic {
+    width: 2.6rem; } }
+
 .join {
   padding: 20px 0; }
   .join .join-left {

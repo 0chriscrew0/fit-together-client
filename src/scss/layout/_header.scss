@@ -45,4 +45,22 @@
       display: none;
     }
   }
+
+  @include media-breakpoint-up(md) {
+    .logo {
+      width: 2.6rem;
+    }
+
+    .main-wrapper {
+      ul {
+        font-size: 1.6rem;
+      }
+    }
+
+    .user-wrapper {
+      .profile-pic {
+        width: 2.6rem;
+      }
+    }
+  }
 }

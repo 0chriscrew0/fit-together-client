@@ -21,11 +21,8 @@ export default class Header extends React.PureComponent {
                 </NavLink>
               </div>
 
-              <div className="col-12 col-md-8 order-12 order-md-2 main-wrapper">
-                <div
-                  className="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
+              <div className="col-12 col-md-5 order-12 order-md-2 main-wrapper">
+                <div className="">
                   <ul className="navbar-nav">
                     <li className="nav-item">
                       <NavLink className="nav-link" to="/feed">
@@ -55,7 +52,7 @@ export default class Header extends React.PureComponent {
                 </div>
               </div>
 
-              <div className="col-8 col-md-2 order-3 user-wrapper">
+              <div className="col-8 col-md-5 order-3 user-wrapper">
                 <ul className="navbar-nav ml-auto nav-top">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
