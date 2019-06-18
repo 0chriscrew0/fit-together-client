@@ -11,7 +11,7 @@ export default class Header extends React.PureComponent {
         <div className="container-fluid">
           <nav className="navbar navbar-expand navbar-light bg-light px-0 pb-0">
             <div className="row w-100 mx-auto">
-              <div className="col-4 col-md-2 logo-wrapper">
+              <div className="col-4 col-md-3 logo-wrapper">
                 <NavLink className="navbar-brand" to="/">
                   <img
                     className="img-fluid logo"
@@ -21,7 +21,7 @@ export default class Header extends React.PureComponent {
                 </NavLink>
               </div>
 
-              <div className="col-12 col-md-5 order-12 order-md-2 main-wrapper">
+              <div className="col-12 col-md-6 order-12 order-md-2 main-wrapper">
                 <div className="">
                   <ul className="navbar-nav">
                     <li className="nav-item">
@@ -52,7 +52,7 @@ export default class Header extends React.PureComponent {
                 </div>
               </div>
 
-              <div className="col-8 col-md-5 order-3 user-wrapper">
+              <div className="col-8 col-md-3 order-3 user-wrapper">
                 <ul className="navbar-nav ml-auto nav-top">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
