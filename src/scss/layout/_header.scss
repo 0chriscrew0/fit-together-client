@@ -31,7 +31,9 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
+
       font-size: 1.4rem;
+
       a {
         padding-bottom: 0;
         &.active {
@@ -53,13 +55,30 @@
 
     .main-wrapper {
       ul {
-        font-size: 1.6rem;
+        i {
+          font-size: 1.6rem;
+        }
       }
     }
 
     .user-wrapper {
       .profile-pic {
         width: 2.6rem;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .main-wrapper {
+      ul {
+        i {
+          font-size: 1.2rem;
+        }
+        .header-link {
+          font-size: 1rem;
+          display: inline-block;
+          margin-left: 0.4rem;
+        }
       }
     }
   }
