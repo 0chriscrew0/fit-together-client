@@ -6,7 +6,7 @@ export default class ProfileModal extends React.PureComponent {
   render() {
     return (
       <div
-        className="modal fade profile-modal"
+        className="modal right fade profile-modal"
         id="exampleModal"
         tabIndex={-1}
         role="dialog"
