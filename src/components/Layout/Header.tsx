@@ -3,6 +3,7 @@ import * as React from "react";
 import Logo from "../../img/FitTogether-logo-v2.png";
 import ProfilePic from "../../img/profile-pic.jpeg";
 import { NavLink } from "react-router-dom";
+import ProfileModal from "./ProfileModal";
 
 export default class Header extends React.PureComponent {
   render() {
@@ -55,14 +56,19 @@ export default class Header extends React.PureComponent {
               <div className="col-8 col-md-3 col-lg-5 order-3 user-wrapper">
                 <ul className="navbar-nav ml-auto nav-top">
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <div
+                      className="nav-link"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
                       Current User
                       <img
                         className="img-fluid profile-pic ml-3"
                         src={ProfilePic}
-                        alt="Your Profile Picture"
+                        alt="Your Profile"
                       />
-                    </a>
+                    </div>
+                    <ProfileModal />
                   </li>
                 </ul>
               </div>
