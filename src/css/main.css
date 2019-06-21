@@ -7503,7 +7503,7 @@ body {
   overflow-y: auto; }
 
 .modal.right .modal-body {
-  padding: 15px 15px 80px; }
+  padding: 15px 15px 40px; }
 
 /*Right*/
 .modal.right.fade .modal-dialog {
@@ -7524,8 +7524,41 @@ body {
   border-bottom-color: #eeeeee;
   background-color: #fafafa; }
 
-.profile-modal img {
+.profile-modal .modal-body {
+  padding-left: 1.6rem !important; }
+
+.profile-modal .profile-image img {
   width: 2.4rem; }
+
+.profile-modal .profile-image p {
+  margin-top: 0.4rem;
+  margin-bottom: 0; }
+
+.profile-modal .follows {
+  margin-top: 1rem;
+  margin-bottom: 1.6rem; }
+  .profile-modal .follows p {
+    display: inline; }
+  .profile-modal .follows .following {
+    margin-right: 0.4rem; }
+
+.profile-modal .links {
+  font-size: 1rem;
+  font-weight: 300; }
+  .profile-modal .links div {
+    margin-bottom: 1rem; }
+    .profile-modal .links div i {
+      width: 1.2rem;
+      margin-right: 0.6rem;
+      color: #6c757d;
+      vertical-align: middle; }
+    .profile-modal .links div p {
+      display: inline-block;
+      margin-bottom: 0;
+      vertical-align: middle; }
+  .profile-modal .links hr {
+    margin-top: 0;
+    margin-bottom: 1rem; }
 
 .join {
   padding: 20px 0; }

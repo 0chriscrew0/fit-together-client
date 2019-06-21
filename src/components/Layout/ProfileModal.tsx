@@ -29,16 +29,22 @@ export default class ProfileModal extends React.PureComponent {
               </button>
             </div>
             <div className="modal-body">
-              <img className="img-fluid" src={ProfilePic} alt="Your profile" />
-              <p>
-                <strong>Username</strong>
-              </p>
+              <div className="profile-image">
+                <img
+                  className="img-fluid"
+                  src={ProfilePic}
+                  alt="Your profile"
+                />
+                <p>
+                  <strong>Username</strong>
+                </p>
+              </div>
 
               <div className="follows">
-                <p>
+                <p className="following">
                   <strong>102</strong> Following
                 </p>
-                <p>
+                <p className="followers">
                   <strong>1999</strong> Followers
                 </p>
               </div>

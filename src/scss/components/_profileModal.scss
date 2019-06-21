@@ -15,7 +15,7 @@
 }
 
 .modal.right .modal-body {
-  padding: 15px 15px 80px;
+  padding: 15px 15px 40px;
 }
 
 /*Right*/
@@ -42,7 +42,50 @@
 }
 
 .profile-modal {
-  img {
-    width: 2.4rem;
+  .modal-body {
+    padding-left: 1.6rem !important;
+  }
+  .profile-image {
+    img {
+      width: 2.4rem;
+    }
+    p {
+      margin-top: 0.4rem;
+      margin-bottom: 0;
+    }
+  }
+
+  .follows {
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+    p {
+      display: inline;
+    }
+    .following {
+      margin-right: 0.4rem;
+    }
+  }
+
+  .links {
+    font-size: 1rem;
+    font-weight: 300;
+    div {
+      i {
+        width: 1.2rem;
+        margin-right: 0.6rem;
+        color: $gray-600;
+        vertical-align: middle;
+      }
+      p {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
+      }
+      margin-bottom: 1rem;
+    }
+    hr {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
   }
 }

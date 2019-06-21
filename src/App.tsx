@@ -26,6 +26,9 @@ const App: React.FC = () => {
                 <Header />
                 <div>
                   <Route path="/feed" component={Feed} />
+                  <Route path="/workouts" component={Feed} />
+                  <Route path="/routines" component={Feed} />
+                  <Route path="/meal-plans" component={Feed} />
                 </div>
               </>
             )}
