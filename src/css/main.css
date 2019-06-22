@@ -7773,6 +7773,17 @@ body {
         box-shadow: 0 10px 6px -6px #777; } }
 
 .feed {
+  padding-top: 1rem;
   min-height: 100vh;
-  background-color: #e6ecf0;
-  padding: 0.6rem 0; }
+  background-color: #e6ecf0; }
+  .feed .main-feed {
+    padding: 0; }
+    .feed .main-feed .main-feed-header {
+      width: 95%;
+      margin: 0 auto;
+      padding: 0.2rem 0.4rem; }
+      .feed .main-feed .main-feed-header h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0; }
+  .feed .suggestions {
+    background-color: #f9f9f9; }

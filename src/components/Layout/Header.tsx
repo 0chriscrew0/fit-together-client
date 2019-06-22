@@ -9,7 +9,7 @@ export default class Header extends React.PureComponent {
   render() {
     return (
       <header className="header">
-        <div className="container-fluid">
+        <div className="container">
           <nav className="navbar navbar-expand navbar-light bg-light px-0 pb-0">
             <div className="row w-100 mx-auto">
               <div className="col-4 col-md-3 col-lg-1 logo-wrapper">
