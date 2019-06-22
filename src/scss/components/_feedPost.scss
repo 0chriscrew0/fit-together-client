@@ -1,0 +1,41 @@
+.feed-post {
+  width: 95%;
+  margin: 0.6rem auto;
+  padding: 0.6rem;
+  background-color: $white;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    .user {
+      display: flex;
+
+      img {
+        width: 2.6rem;
+      }
+      h6 {
+        align-self: flex-end;
+        vertical-align: bottom;
+        margin-bottom: 0;
+        margin-left: 0.6rem;
+      }
+    }
+    .feedback {
+      display: flex;
+      align-items: flex-end;
+      font-size: 0.8rem;
+
+      color: $gray-600;
+
+      .likes {
+        margin-right: 0.6rem;
+      }
+    }
+  }
+  .content {
+    p {
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+  }
+}
