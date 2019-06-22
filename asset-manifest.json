@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fit-together/static/css/main.d1d3cd4a.chunk.css",
+    "main.css": "/fit-together/static/css/main.6be5dc23.chunk.css",
     "main.js": "/fit-together/static/js/main.ad1164a4.chunk.js",
     "main.js.map": "/fit-together/static/js/main.ad1164a4.chunk.js.map",
     "runtime~main.js": "/fit-together/static/js/runtime~main.100d52f5.js",
@@ -8,9 +8,9 @@
     "static/js/2.002de6f5.chunk.js": "/fit-together/static/js/2.002de6f5.chunk.js",
     "static/js/2.002de6f5.chunk.js.map": "/fit-together/static/js/2.002de6f5.chunk.js.map",
     "index.html": "/fit-together/index.html",
-    "precache-manifest.a8fa789d3267a7b9b4431db558b2a715.js": "/fit-together/precache-manifest.a8fa789d3267a7b9b4431db558b2a715.js",
+    "precache-manifest.cf1bbafabe871b9c68a61dfa3f29c93a.js": "/fit-together/precache-manifest.cf1bbafabe871b9c68a61dfa3f29c93a.js",
     "service-worker.js": "/fit-together/service-worker.js",
-    "static/css/main.d1d3cd4a.chunk.css.map": "/fit-together/static/css/main.d1d3cd4a.chunk.css.map",
+    "static/css/main.6be5dc23.chunk.css.map": "/fit-together/static/css/main.6be5dc23.chunk.css.map",
     "static/media/FitTogether-logo-v2.png": "/fit-together/static/media/FitTogether-logo-v2.1b858da5.png"
   }
 }
