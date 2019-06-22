@@ -7584,7 +7584,7 @@ body {
       display: flex; }
       .feed-post .header .user img {
         width: 2.6rem;
-        height: auto; }
+        height: 100%; }
       .feed-post .header .user h6 {
         align-self: flex-end;
         vertical-align: bottom;
