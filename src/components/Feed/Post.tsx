@@ -1,8 +1,10 @@
 import * as React from "react";
 
+import ProfilePicture from "../../img/profile-pic.jpeg";
+
 interface Props {
   username: string;
-  profilePic: string;
+  profilePic?: string;
   likes: number;
   comments: number;
   content: string;
@@ -14,7 +16,11 @@ const Post: React.FunctionComponent<Props> = props => {
     <div className="feed-post">
       <div className="header">
         <div className="user">
-          <img className="img-fluid" src={profilePic} alt="User Profile" />
+          <img
+            className="img-fluid"
+            src={profilePic ? profilePic : ProfilePicture}
+            alt="User Profile"
+          />
           <h6>{username}</h6>
         </div>
         <div className="feedback">
