@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fit-together/static/css/main.bc89482e.chunk.css",
-    "main.js": "/fit-together/static/js/main.dadd9431.chunk.js",
-    "main.js.map": "/fit-together/static/js/main.dadd9431.chunk.js.map",
+    "main.css": "/fit-together/static/css/main.629877ed.chunk.css",
+    "main.js": "/fit-together/static/js/main.100507fc.chunk.js",
+    "main.js.map": "/fit-together/static/js/main.100507fc.chunk.js.map",
     "runtime~main.js": "/fit-together/static/js/runtime~main.100d52f5.js",
     "runtime~main.js.map": "/fit-together/static/js/runtime~main.100d52f5.js.map",
-    "static/js/2.70f66b2b.chunk.js": "/fit-together/static/js/2.70f66b2b.chunk.js",
-    "static/js/2.70f66b2b.chunk.js.map": "/fit-together/static/js/2.70f66b2b.chunk.js.map",
+    "static/js/2.3ce695ff.chunk.js": "/fit-together/static/js/2.3ce695ff.chunk.js",
+    "static/js/2.3ce695ff.chunk.js.map": "/fit-together/static/js/2.3ce695ff.chunk.js.map",
     "index.html": "/fit-together/index.html",
-    "precache-manifest.53c98f446d313bd0c7d44a812a424c53.js": "/fit-together/precache-manifest.53c98f446d313bd0c7d44a812a424c53.js",
+    "precache-manifest.3280114059657280645629e91a89ddcf.js": "/fit-together/precache-manifest.3280114059657280645629e91a89ddcf.js",
     "service-worker.js": "/fit-together/service-worker.js",
-    "static/css/main.bc89482e.chunk.css.map": "/fit-together/static/css/main.bc89482e.chunk.css.map",
+    "static/css/main.629877ed.chunk.css.map": "/fit-together/static/css/main.629877ed.chunk.css.map",
     "static/media/FitTogether-logo-v2.png": "/fit-together/static/media/FitTogether-logo-v2.1b858da5.png"
   }
 }
