@@ -5,16 +5,26 @@
   .main-feed {
     padding: 0;
     .main-feed-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       width: 95%;
       margin: 0 auto;
-      padding: 0.2rem 0.4rem;
       h5 {
         font-size: 1.2rem;
         margin-bottom: 0;
       }
+      .plus-icon {
+        font-size: 0.6rem;
+        vertical-align: top;
+      }
     }
   }
-  .suggestions {
+  .suggestion-cards {
     background-color: $white;
+    h5 {
+      font-size: 1.2rem;
+      margin-bottom: 0;
+    }
   }
 }

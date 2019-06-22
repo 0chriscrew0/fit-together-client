@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import Post from "./Post";
 import Suggestions from "./Suggestions";
+import MainFeed from "./MainFeed";
 
 export default class Feed extends React.PureComponent {
   render() {
@@ -9,32 +9,12 @@ export default class Feed extends React.PureComponent {
       <div className="feed">
         <div className="container">
           <div className="row">
-            <div className="col-md-8 main-feed">
-              <div className="main-feed-header">
-                <h5>Social Feed</h5>
-              </div>
-              <Post
-                username="Brad"
-                likes={5}
-                comments={0}
-                content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos eaque minus atque unde, officia, officiis, veniam error vitae ipsa inventore nobis aut consectetur. Sequi quasi incidunt repellat, assumenda rerum vero accusantium praesentium libero laborum blanditiis maiores labore impedit odio. In."
-              />
-              <Post
-                username="Chris"
-                likes={1304}
-                comments={572}
-                content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, unde nobis exercitationem blanditiis ipsum ipsa!"
-              />
-              <Post
-                username="Chad"
-                likes={23}
-                comments={4}
-                content="Sequi quasi incidunt repellat, assumenda rerum vero accusantium praesentium libero laborum blanditiis maiores labore impedit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, assumenda, commodi fugiat sed beatae eveniet qui facilis ut ex labore unde fuga officiis numquam eos!"
-              />
+            <div className="col-md-8 px-0">
+              <MainFeed />
             </div>
-            {/* <div className="col-md-4 suggestions">
+            <div className="col-md-4 px-0">
               <Suggestions />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

@@ -7779,11 +7779,19 @@ body {
   .feed .main-feed {
     padding: 0; }
     .feed .main-feed .main-feed-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       width: 95%;
-      margin: 0 auto;
-      padding: 0.2rem 0.4rem; }
+      margin: 0 auto; }
       .feed .main-feed .main-feed-header h5 {
         font-size: 1.2rem;
         margin-bottom: 0; }
-  .feed .suggestions {
+      .feed .main-feed .main-feed-header .plus-icon {
+        font-size: 0.6rem;
+        vertical-align: top; }
+  .feed .suggestion-cards {
     background-color: #f9f9f9; }
+    .feed .suggestion-cards h5 {
+      font-size: 1.2rem;
+      margin-bottom: 0; }
