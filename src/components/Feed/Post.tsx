@@ -17,7 +17,7 @@ export default class Post extends React.PureComponent {
           </div>
           <div className="feedback">
             <span className="likes">
-              123 <i className="fas fa-like" />
+              123 <i className="far fa-heart" />
             </span>
             <span className="comments">
               8 <i className="fas fa-comment" />
