@@ -7607,7 +7607,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0.6rem; }
+  padding: 1rem 0.6rem;
+  font-size: 0.8rem; }
   .suggestion-card .user {
     display: flex;
     justify-content: space-between; }
@@ -7812,6 +7813,7 @@ body {
         font-size: 0.6rem;
         vertical-align: top; }
   .feed .suggestions {
+    display: none;
     padding: 0;
     width: 95%;
     margin: 0 auto; }
@@ -7824,3 +7826,6 @@ body {
         margin-bottom: 0; }
     .feed .suggestions .suggestion-cards {
       background-color: #f9f9f9; }
+  @media (min-width: 768px) {
+    .feed .suggestions {
+      display: block; } }

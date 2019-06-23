@@ -21,6 +21,7 @@
     }
   }
   .suggestions {
+    display: none;
     padding: 0;
     width: 95%;
     margin: 0 auto;
@@ -35,6 +36,11 @@
     }
     .suggestion-cards {
       background-color: $white;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .suggestions {
+      display: block;
     }
   }
 }
