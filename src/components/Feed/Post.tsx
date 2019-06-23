@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import ProfilePicture from "../../img/profile-pic.jpeg";
+import DefaultPicture from "../../img/profile-pic.jpeg";
 
 interface Props {
   username: string;
@@ -18,7 +18,7 @@ const Post: React.FunctionComponent<Props> = props => {
         <div className="user">
           <img
             className="img-fluid"
-            src={profilePic ? profilePic : ProfilePicture}
+            src={profilePic ? profilePic : DefaultPicture}
             alt="User Profile"
           />
           <h6>{username}</h6>

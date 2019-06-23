@@ -13,7 +13,8 @@
 @import "layout/header", "layout/footer";
 
 // 5. Components
-@import "components/button", "components/profileModal", "components/feedPost";
+@import "components/button", "components/profileModal", "components/feedPost",
+  "components/suggestionCard";
 
 // 6. Page-specific styles
 @import "pages/home", "pages/join", "pages/register", "pages/login",

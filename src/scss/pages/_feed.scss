@@ -20,11 +20,21 @@
       }
     }
   }
-  .suggestion-cards {
-    background-color: $white;
-    h5 {
-      font-size: 1.2rem;
-      margin-bottom: 0;
+  .suggestions {
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+    .suggestions-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
+    }
+    .suggestion-cards {
+      background-color: $white;
     }
   }
 }

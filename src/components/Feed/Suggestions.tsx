@@ -3,11 +3,15 @@ import SuggestionCard from "./SuggestionCard";
 
 const Suggestions: React.FunctionComponent = props => (
   <div className="suggestions">
-    <h5>Who to Follow</h5>
+    <div className="suggestions-header">
+      <h5>Who to Follow</h5>
+      <button className="btn btn-sm btn-primary">See More</button>
+    </div>
+
     <div className="suggestion-cards">
-      <SuggestionCard />
-      <SuggestionCard />
-      <SuggestionCard />
+      <SuggestionCard username="Brad" followers={74} />
+      <SuggestionCard username="Chad" followers={3} />
+      <SuggestionCard username="Chris" followers={1999} />
     </div>
   </div>
 );
