@@ -7,6 +7,7 @@ import Register from "./components/User/Register";
 import Login from "./components/User/Login";
 import Feed from "./components/Feed";
 import Header from "./components/Layout/Header";
+import Workouts from "./components/Workouts";
 
 const App: React.FC = () => {
   return (
@@ -26,7 +27,7 @@ const App: React.FC = () => {
                 <Header />
                 <div>
                   <Route path="/feed" component={Feed} />
-                  <Route path="/workouts" component={Feed} />
+                  <Route path="/workouts" component={Workouts} />
                   <Route path="/routines" component={Feed} />
                   <Route path="/meal-plans" component={Feed} />
                 </div>
