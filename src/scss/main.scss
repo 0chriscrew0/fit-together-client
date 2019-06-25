@@ -14,11 +14,11 @@
 
 // 5. Components
 @import "components/button", "components/profileModal", "components/feedPost",
-  "components/suggestionCard";
+  "components/suggestionCard", "components/workoutCard.scss";
 
 // 6. Page-specific styles
 @import "pages/home", "pages/join", "pages/register", "pages/login",
-  "pages/feed";
+  "pages/feed", "pages/workouts";
 
 // 7. Themes
 @import "themes/default";

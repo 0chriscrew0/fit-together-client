@@ -7624,6 +7624,48 @@ body {
     width: 4rem;
     height: 100%; }
 
+.workout-card {
+  width: 95%;
+  margin: 1rem auto;
+  background-color: #f9f9f9; }
+  .workout-card .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.6rem; }
+    .workout-card .header .creator {
+      display: flex; }
+      .workout-card .header .creator img {
+        width: 2.4rem; }
+      .workout-card .header .creator span {
+        margin-left: 0.4rem;
+        align-self: flex-end; }
+  .workout-card .body {
+    padding: 0.6rem; }
+    .workout-card .body h6 {
+      font-weight: 700;
+      margin-bottom: 0.2rem; }
+    .workout-card .body p {
+      margin-bottom: 0;
+      font-size: 0.8rem; }
+  .workout-card .footer .labels,
+  .workout-card .footer .values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem; }
+    .workout-card .footer .labels div,
+    .workout-card .footer .values div {
+      display: flex;
+      justify-content: center;
+      width: 33%;
+      padding: 0.4rem 0; }
+  .workout-card .footer .labels {
+    font-weight: 700; }
+    .workout-card .footer .labels div {
+      padding-bottom: 0.2rem; }
+
 .join {
   padding: 20px 0; }
   .join .join-left {
@@ -7829,3 +7871,6 @@ body {
   @media (min-width: 768px) {
     .feed .suggestions {
       display: block; } }
+
+.workouts {
+  background-color: #e6ecf0; }

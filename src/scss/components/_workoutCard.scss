@@ -1,0 +1,54 @@
+.workout-card {
+  width: 95%;
+  margin: 1rem auto;
+  background-color: $white;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.6rem;
+    .creator {
+      display: flex;
+      img {
+        width: 2.4rem;
+      }
+      span {
+        margin-left: 0.4rem;
+        align-self: flex-end;
+      }
+    }
+  }
+  .body {
+    padding: 0.6rem;
+    h6 {
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 0.8rem;
+    }
+  }
+  .footer {
+    .labels,
+    .values {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      font-size: 0.8rem;
+      div {
+        display: flex;
+        justify-content: center;
+        width: 33%;
+        padding: 0.4rem 0;
+      }
+    }
+    .labels {
+      font-weight: 700;
+      div {
+        padding-bottom: 0.2rem;
+      }
+    }
+  }
+}

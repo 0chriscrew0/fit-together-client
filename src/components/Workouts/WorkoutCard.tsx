@@ -30,12 +30,16 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
     <div className="workout-card">
       <div className="header">
         <div className="creator">
-          <img src={creator.image ? creator.image : DefaultPic} />
+          <img
+            className="img-fluid"
+            src={creator.image ? creator.image : DefaultPic}
+            alt="User Profile"
+          />
           <span>{creator.username}</span>
         </div>
         <div className="feedback">
-          {saves} <i className="fas fa-bookmark" />
-          {comments} <i className="fas fa-comment-alt" />
+          {saves} <i className="far fa-bookmark mr-2" />
+          {comments} <i className="far fa-comment-alt" />
         </div>
       </div>
       <div className="body">
@@ -43,9 +47,28 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
         <p>{description}</p>
       </div>
       <div className="footer">
-        <span>{duration}</span>
-        <span>{rating}</span>
-        <span>{intensity}</span>
+        <div className="labels">
+          <div>
+            <span>Duration</span>
+          </div>
+          <div>
+            <span>Rating</span>
+          </div>
+          <div>
+            <span>Intensity</span>
+          </div>
+        </div>
+        <div className="values">
+          <div className="border-right border-top">
+            <span>{duration}</span>
+          </div>
+          <div className="border-top">
+            <span>{rating}</span>
+          </div>
+          <div className="border-top border-left">
+            <span>{intensity}</span>
+          </div>
+        </div>
       </div>
     </div>
   );

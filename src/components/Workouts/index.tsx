@@ -22,9 +22,14 @@ export default class Workouts extends React.PureComponent {
         <div className="popular">
           <h4>Popular</h4>
           <WorkoutCard {...dummyData} />
+          <WorkoutCard {...dummyData} />
+          <WorkoutCard {...dummyData} />
         </div>
         <div className="new">
           <h4>New</h4>
+          <WorkoutCard {...dummyData} />
+          <WorkoutCard {...dummyData} />
+          <WorkoutCard {...dummyData} />
         </div>
       </div>
     );
