@@ -7640,6 +7640,8 @@ body {
       .workout-card .header .creator span {
         margin-left: 0.4rem;
         align-self: flex-end; }
+    .workout-card .header .feedback {
+      font-size: 0.9rem; }
   .workout-card .body {
     padding: 0.6rem; }
     .workout-card .body h6 {
