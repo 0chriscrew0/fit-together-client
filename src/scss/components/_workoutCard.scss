@@ -40,7 +40,9 @@
       align-items: center;
       text-align: center;
       font-size: 0.8rem;
-      div {
+      .duration,
+      .rating,
+      .intensity {
         display: flex;
         justify-content: center;
         width: 33%;
@@ -51,6 +53,17 @@
       font-weight: 700;
       div {
         padding-bottom: 0.2rem;
+      }
+    }
+    .values {
+      .rating {
+        i.star {
+          font-size: 0.6rem;
+          color: $primary;
+        }
+        .rating-value {
+          font-size: 0.8rem;
+        }
       }
     }
   }

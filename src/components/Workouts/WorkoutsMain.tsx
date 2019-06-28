@@ -12,7 +12,7 @@ const dummyData = {
   description:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse debitis unde sed saepe assumenda maxime ut fugit soluta blanditiis harum?",
   duration: 8.2,
-  rating: 5,
+  rating: 0.7,
   intensity: 9
 };
 

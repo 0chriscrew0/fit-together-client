@@ -1,4 +1,5 @@
 import * as React from "react";
+import StarRatingComponent from "react-star-rating-component";
 
 import DefaultPic from "../../img/profile-pic.jpeg";
 
@@ -48,24 +49,46 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
       </div>
       <div className="footer">
         <div className="labels">
-          <div>
+          <div className="duration">
             <span>Duration</span>
           </div>
-          <div>
+          <div className="rating">
             <span>Rating</span>
           </div>
-          <div>
+          <div className="intensity">
             <span>Intensity</span>
           </div>
         </div>
         <div className="values">
-          <div className="border-right border-top">
+          <div className="duration">
             <span>{duration}</span>
           </div>
-          <div className="border-top">
-            <span>{rating}</span>
+          <div className="rating">
+            <StarRatingComponent
+              name="rating"
+              editing={false}
+              renderStarIcon={(index, value) => (
+                <span>
+                  <i
+                    className={`${
+                      index <= value ? "fas fa-star" : "far fa-star"
+                    } star`}
+                  />
+                </span>
+              )}
+              renderStarIconHalf={() => (
+                <span>
+                  <span>
+                    <i className="fas fa-star-half-alt star" />
+                  </span>
+                </span>
+              )}
+              starCount={5}
+              value={rating}
+            />
+            <span className="ml-2 rating-value">{rating}</span>
           </div>
-          <div className="border-top border-left">
+          <div className="intensity">
             <span>{intensity}</span>
           </div>
         </div>
