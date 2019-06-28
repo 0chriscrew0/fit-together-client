@@ -7875,4 +7875,25 @@ body {
       display: block; } }
 
 .workouts {
-  background-color: #e6ecf0; }
+  background-color: #e6ecf0;
+  padding-top: 1rem;
+  min-height: 100vh; }
+  .workouts .workouts-main {
+    padding: 0; }
+    .workouts .workouts-main .workouts-main-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 95%;
+      margin: 0 auto; }
+      .workouts .workouts-main .workouts-main-header h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0; }
+      .workouts .workouts-main .workouts-main-header .plus-icon {
+        font-size: 0.6rem;
+        vertical-align: top; }
+  .workouts .workouts-side {
+    display: none; }
+  @media (min-width: 768px) {
+    .workouts .workouts-side {
+      display: block; } }
