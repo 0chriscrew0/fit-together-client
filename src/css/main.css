@@ -7636,7 +7636,8 @@ body {
     .workout-card .header .creator {
       display: flex; }
       .workout-card .header .creator img {
-        width: 2.4rem; }
+        width: 2.4rem;
+        height: 100%; }
       .workout-card .header .creator span {
         margin-left: 0.4rem;
         align-self: flex-end; }
