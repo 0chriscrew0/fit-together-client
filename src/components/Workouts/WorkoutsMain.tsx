@@ -11,7 +11,10 @@ const dummyData = {
   comments: 4,
   description:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse debitis unde sed saepe assumenda maxime ut fugit soluta blanditiis harum?",
-  duration: 8.2,
+  duration: {
+    hours: 0,
+    minutes: 45
+  },
   rating: 0.7,
   intensity: 9
 };

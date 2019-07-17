@@ -12,7 +12,10 @@ interface Props {
   saves: number;
   comments: number;
   description: string;
-  duration: number;
+  duration: {
+    hours: number;
+    minutes: number;
+  };
   rating: number;
   intensity: number;
 }
@@ -61,7 +64,7 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
         </div>
         <div className="values">
           <div className="duration">
-            <span>{duration}</span>
+            <span>{`${duration.hours}h ${duration.minutes}m`}</span>
           </div>
           <div className="rating">
             <StarRatingComponent
