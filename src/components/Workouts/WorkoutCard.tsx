@@ -92,7 +92,7 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
             <span className="ml-2 rating-value">{rating}</span>
           </div>
           <div className="intensity">
-            <span>{intensity}</span>
+            <span>{`${intensity}/10`}</span>
           </div>
         </div>
       </div>
