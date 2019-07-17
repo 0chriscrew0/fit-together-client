@@ -12,11 +12,11 @@ const dummyData = {
   description:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse debitis unde sed saepe assumenda maxime ut fugit soluta blanditiis harum?",
   duration: {
-    hours: 0,
-    minutes: 45
+    hours: 1,
+    minutes: 30
   },
-  rating: 0.7,
-  intensity: 9
+  rating: 4,
+  intensity: 7
 };
 
 const WorkoutsMain: React.FunctionComponent = () => (
