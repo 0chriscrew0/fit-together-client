@@ -7655,7 +7655,6 @@ body {
   .workout-card .footer .values {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     text-align: center;
     font-size: 0.8rem; }
     .workout-card .footer .labels .duration,
