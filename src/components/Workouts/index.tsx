@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import WorkoutsMain from "./WorkoutsMain";
-import WorkoutsSide from "./WorkoutsSide";
+import WorkoutsFilter from "./WorkoutsFilter";
 
 export default class Workouts extends React.PureComponent {
   render() {
@@ -13,7 +13,7 @@ export default class Workouts extends React.PureComponent {
               <WorkoutsMain />
             </div>
             <div className="col-md-4 px-0">
-              <WorkoutsSide />
+              <WorkoutsFilter />
             </div>
           </div>
         </div>

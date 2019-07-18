@@ -1,7 +1,7 @@
 import * as React from "react";
 
-const WorkoutsSide: React.FunctionComponent = () => (
+const WorkoutsFilter: React.FunctionComponent = () => (
   <div className="workouts-side">WorkoutsSide</div>
 );
 
-export default WorkoutsSide;
+export default WorkoutsFilter;
