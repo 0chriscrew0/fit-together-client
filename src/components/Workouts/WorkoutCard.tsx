@@ -9,6 +9,7 @@ interface Props {
     image?: string;
     username: string;
   };
+  date: string;
   saves: number;
   comments: number;
   description: string;
@@ -23,6 +24,7 @@ interface Props {
 const WorkoutCard: React.FunctionComponent<Props> = ({
   title,
   creator,
+  date,
   saves,
   comments,
   description,
@@ -40,7 +42,9 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
             alt="User Profile"
           />
           <span>{creator.username}</span>
+          <span className="date text-muted">{date}</span>
         </div>
+
         <div className="feedback">
           {saves} <i className="far fa-bookmark mr-2" />
           {comments} <i className="far fa-comment-alt" />

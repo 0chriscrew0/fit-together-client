@@ -7,6 +7,7 @@ const dummyData = {
   creator: {
     username: "Brad"
   },
+  date: Date.now().toString(),
   saves: 2,
   comments: 4,
   description:

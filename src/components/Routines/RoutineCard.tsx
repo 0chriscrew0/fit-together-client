@@ -1,7 +1,4 @@
 import * as React from "react";
-import StarRatingComponent from "react-star-rating-component";
-
-import DefaultPic from "../../img/profile-pic.jpeg";
 
 interface Props {
   title: string;
