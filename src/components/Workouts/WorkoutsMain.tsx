@@ -1,13 +1,22 @@
 import * as React from "react";
+import moment from "moment";
 
 import WorkoutCard from "./WorkoutCard";
+
+moment.relativeTimeRounding(Math.floor);
+
+moment.relativeTimeThreshold("s", 60);
+moment.relativeTimeThreshold("m", 60);
+moment.relativeTimeThreshold("h", 24);
+moment.relativeTimeThreshold("d", 31);
+moment.relativeTimeThreshold("M", 12);
 
 const dummyData = {
   title: "Best Workout",
   creator: {
     username: "Brad"
   },
-  date: Date.now().toString(),
+  date: moment("2017011909:48:54", "YYYYMMDDHH:mm:ss").format(),
   saves: 2,
   comments: 4,
   description:

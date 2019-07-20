@@ -1,5 +1,6 @@
 import * as React from "react";
 import StarRatingComponent from "react-star-rating-component";
+import moment from "moment";
 
 import DefaultPic from "../../img/profile-pic.jpeg";
 
@@ -42,7 +43,9 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
             alt="User Profile"
           />
           <span>{creator.username}</span>
-          <span className="date text-muted">{date}</span>
+          <span className="date text-muted">
+            {moment(date, "YYYYMMDDHH:mm:ss").fromNow()}
+          </span>
         </div>
 
         <div className="feedback">
