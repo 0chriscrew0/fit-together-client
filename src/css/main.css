@@ -7641,10 +7641,15 @@ body {
       .workout-card .header .creator span {
         margin-left: 0.4rem;
         align-self: flex-end;
-        line-height: 0.8rem;
-        vertical-align: bottom; }
+        vertical-align: bottom;
+        line-height: 0.8rem; }
     .workout-card .header .feedback {
-      font-size: 0.9rem; }
+      display: flex;
+      font-size: 0.9rem;
+      align-items: flex-end;
+      vertical-align: bottom;
+      color: #6c757d;
+      line-height: 0.8rem; }
   .workout-card .body {
     padding: 0.6rem; }
     .workout-card .body h6 {

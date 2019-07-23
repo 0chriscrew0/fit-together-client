@@ -16,12 +16,17 @@
       span {
         margin-left: 0.4rem;
         align-self: flex-end;
-        line-height: 0.8rem;
         vertical-align: bottom;
+        line-height: 0.8rem;
       }
     }
     .feedback {
+      display: flex;
       font-size: 0.9rem;
+      align-items: flex-end;
+      vertical-align: bottom;
+      color: $gray-600;
+      line-height: 0.8rem;
     }
   }
   .body {

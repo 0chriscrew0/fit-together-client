@@ -49,8 +49,12 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
         </div>
 
         <div className="feedback">
-          {saves} <i className="far fa-bookmark mr-2" />
-          {comments} <i className="far fa-comment-alt" />
+          <span>
+            {saves} <i className="far fa-bookmark mr-2" />
+          </span>
+          <span>
+            {comments} <i className="fas fa-comment" />
+          </span>
         </div>
       </div>
       <div className="body">
