@@ -7684,6 +7684,10 @@ body {
   .workout-card .footer .values .rating .rating-value {
     font-size: 0.8rem; }
 
+.filters {
+  margin-top: 1rem;
+  padding: 1rem 0.6rem; }
+
 .join {
   padding: 20px 0; }
   .join .join-left {
@@ -7908,8 +7912,20 @@ body {
       .workouts .workouts-main .workouts-main-header .plus-icon {
         font-size: 0.6rem;
         vertical-align: top; }
-  .workouts .workouts-side {
-    display: none; }
+  .workouts .workouts-filter {
+    display: none;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto; }
+    .workouts .workouts-filter .filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .workouts .workouts-filter .filter-header h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0; }
+    .workouts .workouts-filter .filters {
+      background-color: #f9f9f9; }
   @media (min-width: 768px) {
-    .workouts .workouts-side {
+    .workouts .workouts-filter {
       display: block; } }

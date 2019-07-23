@@ -3,7 +3,10 @@ import StarRatingComponent from "react-star-rating-component";
 
 const WorkoutsFilter: React.FunctionComponent = () => (
   <div className="workouts-filter">
-    <h4>Filter</h4>
+    <div className="filter-header">
+      <h5>Filter</h5>
+      <button className="btn btn-sm btn-primary">Apply</button>
+    </div>
     <div className="filters">
       <div className="rating">
         <h6>Rating</h6>
