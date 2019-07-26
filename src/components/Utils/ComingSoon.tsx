@@ -11,7 +11,7 @@ export default class ComingSoon extends React.PureComponent<Props> {
       <div className="coming-soon">
         <div className="container">
           <div className="row">
-            <div className="col-6 mx-auto">
+            <div className="col-md-6 mx-auto">
               <h2>Coming Soon</h2>
               <h5>{this.props.feature}</h5>
               <p>{this.props.description}</p>
