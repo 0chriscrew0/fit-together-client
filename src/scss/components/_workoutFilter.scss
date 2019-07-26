@@ -1,4 +1,25 @@
 .filters {
   margin-top: 1rem;
-  padding: 1rem 0.6rem;
+  padding: 0 1rem;
+
+  .rating {
+    .star-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .duration {
+    .time-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .intensity {
+    label {
+      font-size: 0.8rem;
+      margin-bottom: 0.2rem;
+    }
+  }
 }

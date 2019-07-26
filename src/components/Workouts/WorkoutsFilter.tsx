@@ -1,5 +1,4 @@
 import * as React from "react";
-import StarRatingComponent from "react-star-rating-component";
 
 const WorkoutsFilter: React.FunctionComponent = () => (
   <div className="workouts-filter">
@@ -8,33 +7,48 @@ const WorkoutsFilter: React.FunctionComponent = () => (
       <button className="btn btn-sm btn-primary">Apply</button>
     </div>
     <div className="filters">
-      <div className="rating">
+      <div className="rating pt-4">
         <h6>Rating</h6>
-        <StarRatingComponent
-          name="rating"
-          editing={false}
-          renderStarIcon={(index, value) => (
-            <span>
-              <i
-                className={`${
-                  index <= value ? "fas fa-star" : "far fa-star"
-                } star`}
-              />
-            </span>
-          )}
-          renderStarIconHalf={() => (
-            <span>
-              <span>
-                <i className="fas fa-star-half-alt star" />
-              </span>
-            </span>
-          )}
-          starCount={5}
-          value={4}
-        />
+        <div className="form-group">
+          <select
+            className="form-control form-control-sm"
+            name="duration"
+            id="duration"
+          >
+            <option value="0">less than</option>
+            <option value="1">greater than</option>
+          </select>
+        </div>
+        <div className="star-buttons">
+          <button className="btn btn-sm btn-outline-primary border-0">
+            <i className="fas fa-star" />
+          </button>
+          <button className="btn btn-sm btn-outline-primary border-0">
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+          </button>
+          <button className="btn btn-sm btn-outline-primary border-0">
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+          </button>
+          <button className="btn btn-sm btn-outline-primary border-0">
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+          </button>
+          <button className="btn btn-sm btn-outline-primary border-0">
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+          </button>
+        </div>
       </div>
 
-      <div className="duration">
+      <div className="duration py-4">
         <h6>Duration</h6>
         <div className="form-group">
           <select
@@ -46,7 +60,7 @@ const WorkoutsFilter: React.FunctionComponent = () => (
             <option value="1">longer than</option>
           </select>
         </div>
-        <div>
+        <div className="time-buttons">
           <button className="btn btn-sm btn-outline-primary">10 min</button>
           <button className="btn btn-sm btn-outline-primary">20 min</button>
           <button className="btn btn-sm btn-outline-primary">30 min</button>
@@ -54,10 +68,10 @@ const WorkoutsFilter: React.FunctionComponent = () => (
           <button className="btn btn-sm btn-outline-primary">1 hour</button>
         </div>
       </div>
-      <div className="intensity">
+      <div className="intensity pb-4">
         <h6>Intensity</h6>
         <div className="form-row">
-          <div className="col form-group">
+          <div className="col form-group mb-0">
             <label htmlFor="min">Min</label>
             <select
               className="form-control form-control-sm"
@@ -77,7 +91,7 @@ const WorkoutsFilter: React.FunctionComponent = () => (
               <option value="10">10</option>
             </select>
           </div>
-          <div className="col form-group">
+          <div className="col form-group mb-0">
             <label htmlFor="max">Max</label>
             <select
               className="form-control form-control-sm"
