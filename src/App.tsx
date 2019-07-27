@@ -10,6 +10,7 @@ import Header from "./components/Layout/Header";
 import Workouts from "./components/Workouts";
 import Routines from "./components/Routines";
 import MealPlans from "./components/MealPlans";
+import Footer from "./components/Layout/Footer";
 
 const App: React.FC = () => {
   return (
@@ -27,12 +28,13 @@ const App: React.FC = () => {
             render={() => (
               <>
                 <Header />
-                <div>
+                <div className="main-content">
                   <Route path="/feed" component={Feed} />
                   <Route path="/workouts" component={Workouts} />
                   <Route path="/routines" component={Routines} />
                   <Route path="/meal-plans" component={MealPlans} />
                 </div>
+                <Footer />
               </>
             )}
           />
