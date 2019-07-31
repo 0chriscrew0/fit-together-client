@@ -26,7 +26,7 @@ const App: React.FC = () => {
           <Route
             path="/"
             render={() => (
-              <>
+              <div className="site-content">
                 <Header />
                 <div className="main-content">
                   <Route path="/feed" component={Feed} />
@@ -35,7 +35,7 @@ const App: React.FC = () => {
                   <Route path="/meal-plans" component={MealPlans} />
                 </div>
                 <Footer />
-              </>
+              </div>
             )}
           />
         </Switch>

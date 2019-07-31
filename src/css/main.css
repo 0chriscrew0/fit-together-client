@@ -7493,7 +7493,7 @@ body {
   color: #f9f9f9;
   text-align: center; }
   .site-footer .left {
-    padding: 2rem; }
+    padding: 2rem 0; }
     .site-footer .left .logo {
       display: flex;
       justify-content: center;
@@ -7613,6 +7613,12 @@ body {
       padding-left: 3.4rem; }
     .site-footer .right {
       padding-right: 3.4rem; } }
+
+.site-content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .modal.right .modal-dialog {
   position: fixed;
