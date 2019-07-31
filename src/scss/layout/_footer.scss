@@ -1,3 +1,174 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.site-footer {
+  background-color: $primary;
+  color: $white;
+  text-align: center;
+
+  .left {
+    padding: 2rem;
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2.4rem;
+    }
+    img {
+      width: 2.4rem;
+      height: 100%;
+      margin-right: 1rem;
+    }
+    h4 {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    .contact {
+      i {
+        margin-right: 1rem;
+      }
+      p {
+        display: inline-block;
+      }
+      .address {
+        justify-content: center;
+      }
+    }
+  }
+
+  .center {
+    h6 {
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+    }
+    a {
+      display: block;
+      font-size: 0.8rem;
+      margin-bottom: 0.4rem;
+      color: $white;
+    }
+    .features,
+    .company {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .right {
+    padding: 2rem;
+    h6 {
+      font-weight: 600;
+      margin-bottom: 1.4rem;
+    }
+    .btn-white {
+      color: $white;
+      border-color: $white;
+      &:hover {
+        color: $primary;
+        background-color: $white;
+      }
+    }
+  }
+
+  .bottom {
+    width: 100vw;
+    background-color: $dark;
+    color: $white;
+
+    padding: 1rem 2.4rem;
+    .icons {
+      margin-top: 1rem;
+      margin-left: 1.6rem;
+      i {
+        margin-right: 1.6rem;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+    .left,
+    .center,
+    .right {
+      padding: 4rem 0;
+    }
+
+    .left {
+      padding-left: 3.4rem;
+      .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 2.4rem;
+      }
+      img {
+        width: 2.4rem;
+        height: 100%;
+        margin-right: 1rem;
+      }
+      h4 {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+      .contact {
+        i {
+          margin-right: 1rem;
+        }
+        p {
+          display: inline-block;
+        }
+        .address {
+          justify-content: flex-start;
+        }
+      }
+    }
+
+    .center {
+      h6 {
+        font-weight: 600;
+        margin-bottom: 1.4rem;
+      }
+      a {
+        display: block;
+        font-size: 0.8rem;
+        margin-bottom: 0.4rem;
+        color: $white;
+      }
+      .features,
+      .company {
+        margin-bottom: 0;
+      }
+    }
+
+    .right {
+      padding-right: 3.4rem;
+      h6 {
+        font-weight: 600;
+        margin-bottom: 1.4rem;
+      }
+      .btn-white {
+        color: $white;
+        border-color: $white;
+        &:hover {
+          color: $primary;
+          background-color: $white;
+        }
+      }
+    }
+
+    .bottom {
+      width: 100vw;
+      background-color: $dark;
+      color: $white;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2.4rem;
+      .icons {
+        margin-top: 0;
+        margin-left: 0;
+        i {
+          margin-right: 1.6rem;
+        }
+      }
+    }
+  }
+}

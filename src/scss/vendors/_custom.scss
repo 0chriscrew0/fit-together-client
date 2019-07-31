@@ -1,8 +1,8 @@
 $green: #4ac948;
-$blue: #7be0ad;
+$blue: rgb(25, 78, 43);
 $white: #f9f9f9;
 $gray: #e6ecf0;
 
 $primary: $green;
-$secondary: $blue;
-$dark: #404e5c;
+$secondary: #6c8f72;
+$dark: darken($green, 20%);
