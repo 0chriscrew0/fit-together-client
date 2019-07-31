@@ -7833,8 +7833,7 @@ body {
   text-align: center;
   padding-top: 1.2rem;
   padding-bottom: 1rem;
-  background-color: #e6ecf0;
-  height: 83vh; }
+  background-color: #e6ecf0; }
   .coming-soon h2,
   .coming-soon h5 {
     margin-top: 2rem;
@@ -7845,9 +7844,9 @@ body {
     .coming-soon {
       background-color: #e6ecf0;
       padding: 0;
-      height: 90vh; }
+      height: 60vh; }
       .coming-soon .row {
-        height: 90vh;
+        height: 60vh;
         align-items: center; }
       .coming-soon .col-md-6 {
         background-color: #f9f9f9;

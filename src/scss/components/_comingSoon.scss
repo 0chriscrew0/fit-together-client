@@ -3,7 +3,6 @@
   padding-top: 1.2rem;
   padding-bottom: 1rem;
   background-color: $gray;
-  height: 83vh;
 
   h2,
   h5 {
@@ -16,10 +15,10 @@
   @include media-breakpoint-up(md) {
     background-color: $gray;
     padding: 0;
-    height: 90vh;
+    height: 60vh;
 
     .row {
-      height: 90vh;
+      height: 60vh;
       align-items: center;
     }
 
