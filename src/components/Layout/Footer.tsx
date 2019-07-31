@@ -11,7 +11,7 @@ export default class Footer extends React.PureComponent {
             <div className="left col-md-3">
               <div className="logo">
                 <img src={Logo} alt="FitTogether logo" className="img-fluid" />
-                <h4>FitTogether</h4>
+                <h6>FitTogether</h6>
               </div>
               <div className="contact">
                 <div className="phone">
@@ -20,7 +20,7 @@ export default class Footer extends React.PureComponent {
                 </div>
                 <div className="email">
                   <i className="fas fa-envelope" />
-                  <p>support@fittogether.com</p>
+                  <p>support@test.com</p>
                 </div>
                 <div className="address d-flex align-items-center">
                   <i className="fas fa-map-marker-alt" />
