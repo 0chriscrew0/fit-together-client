@@ -21,6 +21,10 @@ export default class Join extends React.PureComponent {
                 <h5>The ultimate online fitness experience</h5>
 
                 <p className="join-text">Join Fit Together today.</p>
+                <p className="join-text">
+                  Functionality coming soon. See a preview by clicking{" "}
+                  <Link to="/feed">here.</Link>
+                </p>
 
                 <Link className="btn btn-block btn-primary" to="/register">
                   Sign up
