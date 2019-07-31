@@ -7608,6 +7608,11 @@ body {
           margin-left: 0; }
           .site-footer .bottom .icons i {
             margin-right: 1.6rem; } }
+  @media (min-width: 992px) {
+    .site-footer .left {
+      padding-left: 3.4rem; }
+    .site-footer .right {
+      padding-right: 3.4rem; } }
 
 .modal.right .modal-dialog {
   position: fixed;

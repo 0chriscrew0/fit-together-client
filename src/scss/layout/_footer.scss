@@ -174,4 +174,13 @@
       }
     }
   }
+
+  @include media-breakpoint-up(lg) {
+    .left {
+      padding-left: 3.4rem;
+    }
+    .right {
+      padding-right: 3.4rem;
+    }
+  }
 }
