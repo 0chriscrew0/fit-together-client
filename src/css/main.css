@@ -7869,6 +7869,74 @@ body {
         -moz-box-shadow: 0 10px 6px -6px #777;
         box-shadow: 0 10px 6px -6px #777; } }
 
+.routine-card {
+  width: 95%;
+  margin: 1rem auto;
+  background-color: #f9f9f9; }
+  .routine-card .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.6rem; }
+    .routine-card .header .creator {
+      display: flex; }
+      .routine-card .header .creator img {
+        width: 2.4rem;
+        height: 100%; }
+      .routine-card .header .creator span {
+        margin-left: 0.4rem;
+        align-self: flex-end;
+        vertical-align: bottom;
+        line-height: 0.8rem; }
+    .routine-card .header .feedback {
+      display: flex;
+      font-size: 0.9rem;
+      align-items: flex-end;
+      vertical-align: bottom;
+      color: #6c757d;
+      line-height: 0.8rem; }
+  .routine-card .body {
+    padding: 0.6rem; }
+    .routine-card .body h6 {
+      font-weight: 700;
+      margin-bottom: 0.2rem; }
+    .routine-card .body p {
+      margin-bottom: 0;
+      font-size: 0.8rem; }
+  .routine-card .footer .labels,
+  .routine-card .footer .values {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem; }
+    .routine-card .footer .labels .days,
+    .routine-card .footer .labels .rating,
+    .routine-card .footer .labels .intensity,
+    .routine-card .footer .values .days,
+    .routine-card .footer .values .rating,
+    .routine-card .footer .values .intensity {
+      display: flex;
+      justify-content: center;
+      width: 33%;
+      padding: 0.4rem 0; }
+    .routine-card .footer .labels .days,
+    .routine-card .footer .values .days {
+      padding-left: 0.6rem;
+      justify-content: flex-start; }
+    .routine-card .footer .labels .intensity,
+    .routine-card .footer .values .intensity {
+      padding-right: 0.6rem;
+      justify-content: flex-end; }
+  .routine-card .footer .labels {
+    font-weight: 700; }
+    .routine-card .footer .labels div {
+      padding-bottom: 0.2rem; }
+  .routine-card .footer .values .rating i.star {
+    font-size: 0.8rem;
+    color: #4ac948; }
+  .routine-card .footer .values .rating .rating-value {
+    font-size: 1rem; }
+
 .join {
   padding: 20px 0; }
   .join .join-left {

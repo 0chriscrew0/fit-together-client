@@ -31,7 +31,7 @@ const RoutineCard: React.FunctionComponent<Props> = ({
   intensity
 }) => {
   return (
-    <div className="workout-card">
+    <div className="routine-card">
       <div className="header">
         <div className="creator">
           <img
@@ -60,7 +60,7 @@ const RoutineCard: React.FunctionComponent<Props> = ({
       </div>
       <div className="footer">
         <div className="labels">
-          <div className="duration">
+          <div className="days">
             <span>Days</span>
           </div>
           <div className="rating">
