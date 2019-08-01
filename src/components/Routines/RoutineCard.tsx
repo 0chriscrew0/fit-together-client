@@ -61,7 +61,7 @@ const RoutineCard: React.FunctionComponent<Props> = ({
       <div className="footer">
         <div className="labels">
           <div className="days">
-            <span>Days</span>
+            <span>Days per week</span>
           </div>
           <div className="rating">
             <span>Rating</span>
