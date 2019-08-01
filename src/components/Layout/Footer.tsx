@@ -83,7 +83,7 @@ export default class Footer extends React.PureComponent {
             </div>
             <div className="bottom">
               <div className="copyright">
-                &copy; FitTogether. All rights reserved
+                &copy; FitTogether. All rights reserved.
               </div>
               <div className="icons">
                 <i className="fab fa-facebook" />
