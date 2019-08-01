@@ -12,8 +12,8 @@ const WorkoutsFilter: React.FunctionComponent = () => (
         <div className="form-group">
           <select
             className="form-control form-control-sm"
-            name="duration"
-            id="duration"
+            name="rating"
+            id="rating"
           >
             <option value="0">less than</option>
             <option value="1">greater than</option>
