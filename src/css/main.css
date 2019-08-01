@@ -7836,7 +7836,10 @@ body {
   .filters .rating .star-buttons {
     display: flex;
     justify-content: space-between; }
-  .filters .duration .time-buttons {
+  .filters .duration .time-buttons,
+  .filters .duration .days-buttons,
+  .filters .days .time-buttons,
+  .filters .days .days-buttons {
     display: flex;
     justify-content: space-between; }
   .filters .intensity label {
@@ -8177,4 +8180,40 @@ body {
       background-color: #f9f9f9; }
   @media (min-width: 768px) {
     .workouts .workouts-filter {
+      display: block; } }
+
+.routines {
+  background-color: #e6ecf0;
+  padding-top: 1rem;
+  min-height: 100vh; }
+  .routines .routines-main {
+    padding: 0; }
+    .routines .routines-main .routines-main-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 95%;
+      margin: 0 auto; }
+      .routines .routines-main .routines-main-header h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0; }
+      .routines .routines-main .routines-main-header .plus-icon {
+        font-size: 0.6rem;
+        vertical-align: top; }
+  .routines .routines-filter {
+    display: none;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto; }
+    .routines .routines-filter .filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .routines .routines-filter .filter-header h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0; }
+    .routines .routines-filter .filters {
+      background-color: #f9f9f9; }
+  @media (min-width: 768px) {
+    .routines .routines-filter {
       display: block; } }

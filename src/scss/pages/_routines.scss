@@ -1,0 +1,48 @@
+.routines {
+  background-color: $gray;
+  padding-top: 1rem;
+  min-height: 100vh;
+  .routines-main {
+    padding: 0;
+    .routines-main-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 95%;
+      margin: 0 auto;
+      h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
+      .plus-icon {
+        font-size: 0.6rem;
+        vertical-align: top;
+      }
+    }
+  }
+
+  .routines-filter {
+    display: none;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+    .filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
+    }
+    .filters {
+      background-color: $white;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .routines-filter {
+      display: block;
+    }
+  }
+}
