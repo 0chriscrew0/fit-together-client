@@ -1,0 +1,85 @@
+.routine-card {
+  width: 95%;
+  margin: 1rem auto;
+  background-color: $white;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.6rem;
+    .creator {
+      display: flex;
+      img {
+        width: 2.4rem;
+        height: 100%;
+      }
+      span {
+        margin-left: 0.4rem;
+        align-self: flex-end;
+        vertical-align: bottom;
+        line-height: 0.8rem;
+      }
+    }
+    .feedback {
+      display: flex;
+      font-size: 0.9rem;
+      align-items: flex-end;
+      vertical-align: bottom;
+      color: $gray-600;
+      line-height: 0.8rem;
+    }
+  }
+  .body {
+    padding: 0.6rem;
+    h6 {
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 0.8rem;
+    }
+  }
+  .footer {
+    .labels,
+    .values {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      font-size: 1rem;
+      .days,
+      .rating,
+      .intensity {
+        display: flex;
+        justify-content: center;
+        width: 33%;
+        padding: 0.4rem 0;
+      }
+      .days {
+        padding-left: 0.6rem;
+        justify-content: flex-start;
+      }
+      .intensity {
+        padding-right: 0.6rem;
+        justify-content: flex-end;
+      }
+    }
+    .labels {
+      font-weight: 700;
+      div {
+        padding-bottom: 0.2rem;
+      }
+    }
+    .values {
+      .rating {
+        i.star {
+          font-size: 0.8rem;
+          color: $primary;
+        }
+        .rating-value {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
