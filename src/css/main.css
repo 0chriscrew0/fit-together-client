@@ -7792,45 +7792,35 @@ body {
       line-height: 0.8rem; }
   .workout-card .body {
     padding: 0.6rem; }
-    .workout-card .body h6 {
-      font-weight: 700;
-      margin-bottom: 0.2rem; }
+    .workout-card .body .body-top {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .workout-card .body .body-top h6 {
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+        margin-right: 0.6rem; }
+      .workout-card .body .body-top .rating {
+        display: flex;
+        align-items: center; }
+        .workout-card .body .body-top .rating i.star {
+          font-size: 0.6rem;
+          color: #4ac948; }
+        .workout-card .body .body-top .rating .rating-value {
+          font-size: 0.8rem;
+          margin-bottom: 0.2rem; }
+        .workout-card .body .body-top .rating label {
+          margin-bottom: 0;
+          padding-bottom: 0.4rem; }
     .workout-card .body p {
       margin-bottom: 0;
       font-size: 0.8rem; }
-  .workout-card .footer .labels,
-  .workout-card .footer .values {
+  .workout-card .footer {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    font-size: 1rem; }
-    .workout-card .footer .labels .duration,
-    .workout-card .footer .labels .rating,
-    .workout-card .footer .labels .intensity,
-    .workout-card .footer .values .duration,
-    .workout-card .footer .values .rating,
-    .workout-card .footer .values .intensity {
-      display: flex;
-      justify-content: center;
-      width: 33%;
-      padding: 0.4rem 0; }
-    .workout-card .footer .labels .duration,
-    .workout-card .footer .values .duration {
-      padding-left: 0.6rem;
-      justify-content: flex-start; }
-    .workout-card .footer .labels .intensity,
-    .workout-card .footer .values .intensity {
-      padding-right: 0.6rem;
-      justify-content: flex-end; }
-  .workout-card .footer .labels {
-    font-weight: 700; }
-    .workout-card .footer .labels div {
-      padding-bottom: 0.2rem; }
-  .workout-card .footer .values .rating i.star {
-    font-size: 0.6rem;
-    color: #4ac948; }
-  .workout-card .footer .values .rating .rating-value {
-    font-size: 1rem; }
+    padding: 0.6rem;
+    padding-top: 0;
+    font-size: 0.8rem; }
 
 .filters {
   margin-top: 1rem;

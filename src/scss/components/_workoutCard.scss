@@ -34,55 +34,43 @@
   }
   .body {
     padding: 0.6rem;
-    h6 {
-      font-weight: 700;
-      margin-bottom: 0.2rem;
+    .body-top {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      h6 {
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+        margin-right: 0.6rem;
+      }
+      .rating {
+        display: flex;
+        align-items: center;
+        i.star {
+          font-size: 0.6rem;
+          color: $primary;
+        }
+        .rating-value {
+          font-size: 0.8rem;
+          margin-bottom: 0.2rem;
+        }
+        label {
+          margin-bottom: 0;
+          padding-bottom: 0.4rem;
+        }
+      }
     }
+
     p {
       margin-bottom: 0;
       font-size: 0.8rem;
     }
   }
   .footer {
-    .labels,
-    .values {
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-      font-size: 1rem;
-      .duration,
-      .rating,
-      .intensity {
-        display: flex;
-        justify-content: center;
-        width: 33%;
-        padding: 0.4rem 0;
-      }
-      .duration {
-        padding-left: 0.6rem;
-        justify-content: flex-start;
-      }
-      .intensity {
-        padding-right: 0.6rem;
-        justify-content: flex-end;
-      }
-    }
-    .labels {
-      font-weight: 700;
-      div {
-        padding-bottom: 0.2rem;
-      }
-    }
-    .values {
-      .rating {
-        i.star {
-          font-size: 0.6rem;
-          color: $primary;
-        }
-        .rating-value {
-          font-size: 1rem;
-        }
-      }
-    }
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+    padding-top: 0;
+    font-size: 0.8rem;
   }
 }

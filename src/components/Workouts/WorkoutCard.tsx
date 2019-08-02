@@ -58,25 +58,8 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
         </div>
       </div>
       <div className="body">
-        <h6>{title}</h6>
-        <p>{description}</p>
-      </div>
-      <div className="footer">
-        <div className="labels">
-          <div className="duration">
-            <span>Duration</span>
-          </div>
-          <div className="rating">
-            <span>Rating</span>
-          </div>
-          <div className="intensity">
-            <span>Intensity</span>
-          </div>
-        </div>
-        <div className="values">
-          <div className="duration">
-            <span>{`${duration.hours}h ${duration.minutes}m`}</span>
-          </div>
+        <div className="body-top">
+          <h6>{title}</h6>
           <div className="rating">
             <StarRatingComponent
               name="rating"
@@ -102,9 +85,13 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
             />
             <span className="ml-2 rating-value">{rating}</span>
           </div>
-          <div className="intensity">
-            <span>{`${intensity}/10`}</span>
-          </div>
+        </div>
+        <p>{description}</p>
+      </div>
+      <div className="footer">
+        <div className="intensity">{intensity}</div>
+        <div className="duration">
+          <span>{`${duration.hours}h ${duration.minutes}m`}</span>
         </div>
       </div>
     </div>
