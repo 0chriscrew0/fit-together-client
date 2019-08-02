@@ -1,7 +1,7 @@
 import * as React from "react";
 
-const RoutinesFilter: React.FunctionComponent = () => (
-  <div className="routines-filter">
+const MealPlansFilter: React.FunctionComponent = () => (
+  <div className="meal-plans-filter">
     <div className="filter-header">
       <h5>Filter</h5>
       <button className="btn btn-sm btn-primary">Apply</button>
@@ -47,7 +47,6 @@ const RoutinesFilter: React.FunctionComponent = () => (
           </button>
         </div>
       </div>
-
       <div className="days py-4">
         <h6>Days per week</h6>
         <div className="form-group">
@@ -76,53 +75,17 @@ const RoutinesFilter: React.FunctionComponent = () => (
           </select>
         </div>
       </div>
-      <div className="intensity pb-4">
-        <h6>Intensity</h6>
-        <div className="form-row">
-          <div className="col form-group mb-0">
-            <label htmlFor="min">Min</label>
-            <select
-              className="form-control form-control-sm"
-              name="min"
-              id="min"
-              defaultValue="1"
-            >
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-            </select>
-          </div>
-          <div className="col form-group mb-0">
-            <label htmlFor="max">Max</label>
-            <select
-              className="form-control form-control-sm"
-              name="max"
-              id="max"
-              defaultValue="10"
-            >
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-            </select>
-          </div>
+      <div className="price pb-4">
+        <h6 className="pb-1">Price</h6>
+        <div className="price-buttons">
+          <button className="btn btn-sm btn-primary">$</button>
+          <button className="btn btn-sm btn-primary">$$</button>
+          <button className="btn btn-sm btn-primary">$$$</button>
+          <button className="btn btn-sm btn-primary">$$$$</button>
         </div>
       </div>
     </div>
   </div>
 );
 
-export default RoutinesFilter;
+export default MealPlansFilter;

@@ -15,11 +15,12 @@
 // 5. Components
 @import "components/button", "components/profileModal", "components/feedPost",
   "components/suggestionCard", "components/workoutCard.scss",
-  "components/workoutFilter", "components/comingSoon", "components/routineCard";
+  "components/workoutFilter", "components/comingSoon", "components/routineCard",
+  "components/mealPlanCard";
 
 // 6. Page-specific styles
 @import "pages/home", "pages/join", "pages/register", "pages/login",
-  "pages/feed", "pages/workouts", "pages/routines";
+  "pages/feed", "pages/workouts", "pages/routines", "pages/mealPlans";
 
 // 7. Themes
 @import "themes/default";

@@ -16,6 +16,13 @@
     }
   }
 
+  .price {
+    .price-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
   .intensity {
     label {
       font-size: 0.8rem;

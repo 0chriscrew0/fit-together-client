@@ -1,26 +1,23 @@
 import * as React from "react";
 
-import ComingSoon from "../Utils/ComingSoon";
+import MealPlansMain from "./MealPlansMain";
+import MealPlansFilter from "./MealPlansFilter";
 
 export default class MealPlans extends React.PureComponent {
   render() {
     return (
-      // <div className="workouts">
-      //   <div className="container">
-      //     <div className="row">
-      //       <div className="col-md-8 px-0">
-      //         <RoutinesMain />
-      //       </div>
-      //       <div className="col-md-4 px-0">
-      //         <RoutinesSide />
-      //       </div>
-      //     </div>
-      //   </div>
-      // </div>
-      <ComingSoon
-        feature="Meal Plans"
-        description="Meal Plans are coming soon! Users can create a collection of meals and assign them to days of the week--along with other great features--to create an easy to follow plan viewable by other users."
-      />
+      <div className="meal-plans">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-lg-7 col-xl-8 px-0">
+              <MealPlansMain />
+            </div>
+            <div className="col-md-6 col-lg-5 col-xl-4 px-0">
+              <MealPlansFilter />
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }
