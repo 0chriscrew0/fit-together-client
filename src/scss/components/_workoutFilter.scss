@@ -9,10 +9,8 @@
     }
   }
 
-  .duration,
-  .days {
-    .time-buttons,
-    .days-buttons {
+  .duration {
+    .time-buttons {
       display: flex;
       justify-content: space-between;
     }

@@ -7836,10 +7836,7 @@ body {
   .filters .rating .star-buttons {
     display: flex;
     justify-content: space-between; }
-  .filters .duration .time-buttons,
-  .filters .duration .days-buttons,
-  .filters .days .time-buttons,
-  .filters .days .days-buttons {
+  .filters .duration .time-buttons {
     display: flex;
     justify-content: space-between; }
   .filters .intensity label {

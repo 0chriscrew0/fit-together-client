@@ -53,21 +53,27 @@ const RoutinesFilter: React.FunctionComponent = () => (
         <div className="form-group">
           <select
             className="form-control form-control-sm"
-            name="days"
-            id="days"
+            name="days-than"
+            id="days-than"
           >
             <option value="0">less than</option>
             <option value="1">more than</option>
           </select>
         </div>
-        <div className="days-buttons">
-          <button className="btn btn-sm btn-outline-primary">1</button>
-          <button className="btn btn-sm btn-outline-primary">2</button>
-          <button className="btn btn-sm btn-outline-primary">3</button>
-          <button className="btn btn-sm btn-outline-primary">4</button>
-          <button className="btn btn-sm btn-outline-primary">5</button>
-          <button className="btn btn-sm btn-outline-primary">6</button>
-          <button className="btn btn-sm btn-outline-primary">7</button>
+        <div className="form-group">
+          <select
+            className="form-control form-control-sm"
+            name="days-value"
+            id="days-value"
+          >
+            <option value="1">1 day</option>
+            <option value="2">2 days</option>
+            <option value="3">3 days</option>
+            <option value="4">4 days</option>
+            <option value="5">5 days</option>
+            <option value="6">6 days</option>
+            <option value="7">7 days</option>
+          </select>
         </div>
       </div>
       <div className="intensity pb-4">
