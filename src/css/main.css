@@ -7544,9 +7544,9 @@ body {
     padding: 1rem 2.4rem; }
     .site-footer .bottom .icons {
       margin-top: 1rem;
-      margin-left: 1.6rem; }
+      margin-left: 1.2rem; }
       .site-footer .bottom .icons i {
-        margin-right: 1.6rem; }
+        margin-right: 1.2rem; }
   @media (min-width: 768px) {
     .site-footer {
       text-align: left; }
@@ -7781,6 +7781,8 @@ body {
         align-self: flex-end;
         vertical-align: bottom;
         line-height: 0.8rem; }
+      .workout-card .header .creator .date {
+        font-size: 0.8rem; }
     .workout-card .header .feedback {
       display: flex;
       font-size: 0.9rem;
@@ -7825,7 +7827,7 @@ body {
     .workout-card .footer .labels div {
       padding-bottom: 0.2rem; }
   .workout-card .footer .values .rating i.star {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: #4ac948; }
   .workout-card .footer .values .rating .rating-value {
     font-size: 1rem; }
@@ -7888,6 +7890,8 @@ body {
         align-self: flex-end;
         vertical-align: bottom;
         line-height: 0.8rem; }
+      .routine-card .header .creator .date {
+        font-size: 0.8rem; }
     .routine-card .header .feedback {
       display: flex;
       font-size: 0.9rem;
@@ -7932,7 +7936,7 @@ body {
     .routine-card .footer .labels div {
       padding-bottom: 0.2rem; }
   .routine-card .footer .values .rating i.star {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: #4ac948; }
   .routine-card .footer .values .rating .rating-value {
     font-size: 1rem; }

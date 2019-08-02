@@ -9,10 +9,10 @@ export default class Routines extends React.PureComponent {
       <div className="routines">
         <div className="container">
           <div className="row">
-            <div className="col-md-8 px-0">
+            <div className="col-md-6 col-lg-7 col-xl-8 px-0">
               <RoutinesMain />
             </div>
-            <div className="col-md-4 px-0">
+            <div className="col-md-6 col-lg-5 col-xl-4 px-0">
               <RoutinesFilter />
             </div>
           </div>
