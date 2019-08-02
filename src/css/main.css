@@ -7762,60 +7762,92 @@ body {
     width: 4rem;
     height: 100%; }
 
-.workout-card {
+.workout-card,
+.routine-card,
+.meal-plan-card {
   width: 95%;
   margin: 1rem auto;
   background-color: #f9f9f9; }
-  .workout-card .header {
+  .workout-card .header,
+  .routine-card .header,
+  .meal-plan-card .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding: 0.6rem; }
-    .workout-card .header .creator {
+    .workout-card .header .creator,
+    .routine-card .header .creator,
+    .meal-plan-card .header .creator {
       display: flex; }
-      .workout-card .header .creator img {
+      .workout-card .header .creator img,
+      .routine-card .header .creator img,
+      .meal-plan-card .header .creator img {
         width: 2.4rem;
         height: 100%; }
-      .workout-card .header .creator span {
+      .workout-card .header .creator span,
+      .routine-card .header .creator span,
+      .meal-plan-card .header .creator span {
         margin-left: 0.4rem;
         align-self: flex-end;
         vertical-align: bottom;
         line-height: 0.8rem; }
-      .workout-card .header .creator .date {
+      .workout-card .header .creator .date,
+      .routine-card .header .creator .date,
+      .meal-plan-card .header .creator .date {
         font-size: 0.8rem; }
-    .workout-card .header .feedback {
+    .workout-card .header .feedback,
+    .routine-card .header .feedback,
+    .meal-plan-card .header .feedback {
       display: flex;
       font-size: 0.9rem;
       align-items: flex-end;
       vertical-align: bottom;
       color: #6c757d;
       line-height: 0.8rem; }
-  .workout-card .body {
+  .workout-card .body,
+  .routine-card .body,
+  .meal-plan-card .body {
     padding: 0.6rem; }
-    .workout-card .body .body-top {
+    .workout-card .body .body-top,
+    .routine-card .body .body-top,
+    .meal-plan-card .body .body-top {
       display: flex;
       justify-content: flex-start;
       align-items: center; }
-      .workout-card .body .body-top h6 {
+      .workout-card .body .body-top h6,
+      .routine-card .body .body-top h6,
+      .meal-plan-card .body .body-top h6 {
         font-weight: 700;
         margin-bottom: 0.2rem;
         margin-right: 0.6rem; }
-      .workout-card .body .body-top .rating {
+      .workout-card .body .body-top .rating,
+      .routine-card .body .body-top .rating,
+      .meal-plan-card .body .body-top .rating {
         display: flex;
         align-items: center; }
-        .workout-card .body .body-top .rating i.star {
+        .workout-card .body .body-top .rating i.star,
+        .routine-card .body .body-top .rating i.star,
+        .meal-plan-card .body .body-top .rating i.star {
           font-size: 0.6rem;
           color: #4ac948; }
-        .workout-card .body .body-top .rating .rating-value {
+        .workout-card .body .body-top .rating .rating-value,
+        .routine-card .body .body-top .rating .rating-value,
+        .meal-plan-card .body .body-top .rating .rating-value {
           font-size: 0.8rem;
           margin-bottom: 0.2rem; }
-        .workout-card .body .body-top .rating label {
+        .workout-card .body .body-top .rating label,
+        .routine-card .body .body-top .rating label,
+        .meal-plan-card .body .body-top .rating label {
           margin-bottom: 0;
           padding-bottom: 0.4rem; }
-    .workout-card .body p {
+    .workout-card .body p,
+    .routine-card .body p,
+    .meal-plan-card .body p {
       margin-bottom: 0;
       font-size: 0.8rem; }
-  .workout-card .footer {
+  .workout-card .footer,
+  .routine-card .footer,
+  .meal-plan-card .footer {
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;

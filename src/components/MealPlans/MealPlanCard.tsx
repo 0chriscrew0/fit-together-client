@@ -31,7 +31,7 @@ const MealPlanCard: React.FunctionComponent<Props> = ({
   price
 }) => {
   return (
-    <div className="routine-card">
+    <div className="meal-plan-card">
       <div className="header">
         <div className="creator">
           <img
@@ -55,25 +55,8 @@ const MealPlanCard: React.FunctionComponent<Props> = ({
         </div>
       </div>
       <div className="body">
-        <h6>{title}</h6>
-        <p>{description}</p>
-      </div>
-      <div className="footer">
-        <div className="labels">
-          <div className="days">
-            <span>Days</span>
-          </div>
-          <div className="rating">
-            <span>Rating</span>
-          </div>
-          <div className="intensity">
-            <span>Price</span>
-          </div>
-        </div>
-        <div className="values">
-          <div className="days">
-            <span>{days}/7</span>
-          </div>
+        <div className="body-top">
+          <h6>{title}</h6>
           <div className="rating">
             <StarRatingComponent
               name="rating"
@@ -99,9 +82,13 @@ const MealPlanCard: React.FunctionComponent<Props> = ({
             />
             <span className="ml-2 rating-value">{rating}</span>
           </div>
-          <div className="price">
-            <span>{`${price}`}</span>
-          </div>
+        </div>
+        <p>{description}</p>
+      </div>
+      <div className="footer">
+        <div className="price">{price}</div>
+        <div className="days">
+          <span>{days}/7</span>
         </div>
       </div>
     </div>
