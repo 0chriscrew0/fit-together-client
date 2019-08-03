@@ -24,7 +24,7 @@ const dummyData = [
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse debitis unde sed saepe assumenda maxime ut fugit soluta blanditiis harum?",
     days: 5,
     rating: 4,
-    intensity: 7
+    intensity: 0
   },
   {
     title: "Insane Workout",
@@ -38,7 +38,7 @@ const dummyData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quaerat! Fugit perspiciatis assumenda temporibus aliquid autem cumque eveniet. Eos tempora aliquam vitae autem, delectus unde facere temporibus eius perferendis commodi ex quibusdam maxime dolorem cupiditate eligendi eum provident laudantium quidem adipisci reprehenderit repudiandae quae. Minus, eum facere. Dolorem veniam commodi ab aperiam ad, consequuntur suscipit illo sequi fuga molestias dolorum.",
     days: 5,
     rating: 5,
-    intensity: 9.4
+    intensity: 2
   },
   {
     title: "Easy Warmup",
@@ -80,7 +80,7 @@ const dummyData = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non assumenda quibusdam iusto doloribus aperiam?",
     days: 5,
     rating: 4.8,
-    intensity: 10
+    intensity: 1
   },
   {
     title: "My first workout!",

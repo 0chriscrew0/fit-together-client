@@ -3,6 +3,8 @@ import StarRatingComponent from "react-star-rating-component";
 import moment from "moment";
 
 import DefaultPic from "../../img/profile-pic.jpeg";
+import getIntensityColor from "../../utils/getIntensityColor";
+import getIntensity from "../../utils/getIntensity";
 
 interface Props {
   title: string;
@@ -86,7 +88,13 @@ const RoutineCard: React.FunctionComponent<Props> = ({
         <p>{description}</p>
       </div>
       <div className="footer">
-        <div className="intensity">{intensity}</div>
+        <div
+          className={`intensity text-green text-${getIntensityColor(
+            intensity
+          )}`}
+        >
+          {getIntensity(intensity)}
+        </div>
         <div className="duration">
           <span>{days}/7</span>
         </div>
