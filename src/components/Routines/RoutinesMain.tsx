@@ -13,25 +13,25 @@ moment.relativeTimeThreshold("M", 12);
 
 const dummyData = [
   {
-    title: "Best Workout",
+    title: "Insane Routine",
     creator: {
       username: "Brad"
     },
-    date: moment("2019072219:48:54", "YYYYMMDDHH:mm:ss").format(),
-    saves: 2,
-    comments: 4,
+    date: moment("2019080314:48:54", "YYYYMMDDHH:mm:ss").format(),
+    saves: 6,
+    comments: 1,
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse debitis unde sed saepe assumenda maxime ut fugit soluta blanditiis harum?",
-    days: 5,
-    rating: 4,
-    intensity: 0
+      "Esse debitis unde sed saepe assumenda maxime ut fugit soluta blanditiis harum?",
+    days: 7,
+    rating: 4.5,
+    intensity: 4
   },
   {
-    title: "Insane Workout",
+    title: "Awesome Routine",
     creator: {
       username: "Chris"
     },
-    date: moment("2019072209:48:54", "YYYYMMDDHH:mm:ss").format(),
+    date: moment("2019080314:09:54", "YYYYMMDDHH:mm:ss").format(),
     saves: 54,
     comments: 30,
     description:
@@ -41,60 +41,59 @@ const dummyData = [
     intensity: 2
   },
   {
-    title: "Easy Warmup",
-    creator: {
-      username: "Chad"
-    },
-    date: moment("2019042009:48:54", "YYYYMMDDHH:mm:ss").format(),
-    saves: 13,
-    comments: 1,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque saepe quo quia debitis amet est consequuntur asperiores ut, repudiandae ullam. Sint ratione cum corrupti accusantium dicta voluptatem delectus, fugit eveniet fugiat exercitationem? Est, placeat fuga. Laborum ipsam sit cupiditate eaque.",
-    days: 5,
-    rating: 4.7,
-    intensity: 2
-  },
-  {
-    title: "Great Cooldown",
+    title: "Easy Routine",
     creator: {
       username: "Brad"
     },
-    date: moment("2018011309:48:54", "YYYYMMDDHH:mm:ss").format(),
+    date: moment("2018042009:48:54", "YYYYMMDDHH:mm:ss").format(),
+    saves: 17,
+    comments: 2,
+    description:
+      "Atque saepe quo quia debitis amet est consequuntur asperiores ut, repudiandae ullam. Sint ratione cum corrupti accusantium dicta voluptatem delectus, fugit eveniet fugiat exercitationem? Est, placeat fuga. Laborum ipsam sit cupiditate eaque.",
+    days: 5,
+    rating: 4.7,
+    intensity: 1
+  },
+  {
+    title: "Great Routine",
+    creator: {
+      username: "Chad"
+    },
+    date: moment("2016011309:48:54", "YYYYMMDDHH:mm:ss").format(),
     saves: 4,
     comments: 0,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aspernatur ipsam omnis?",
-    days: 5,
-    rating: 4.2,
-    intensity: 4
+    days: 4,
+    rating: 4.7,
+    intensity: 3
   },
   {
-    title: "Christmas Workout (Intense)",
+    title: "Christmas Week Routine!!",
     creator: {
       username: "Chris"
     },
-    date: moment("2018122509:48:54", "YYYYMMDDHH:mm:ss").format(),
-    saves: 679,
-    comments: 102,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non assumenda quibusdam iusto doloribus aperiam?",
-    days: 5,
-    rating: 4.8,
-    intensity: 1
+    date: moment("2015122509:48:54", "YYYYMMDDHH:mm:ss").format(),
+    saves: 1259,
+    comments: 564,
+    description: "Non assumenda quibusdam iusto doloribus aperiam?",
+    days: 7,
+    rating: 4.9,
+    intensity: 2
   },
   {
-    title: "My first workout!",
+    title: "My first workout routine!",
     creator: {
       username: "Brad"
     },
-    date: moment("2017041910:48:54", "YYYYMMDDHH:mm:ss").format(),
-    saves: 198,
-    comments: 54,
+    date: moment("2013041910:48:54", "YYYYMMDDHH:mm:ss").format(),
+    saves: 2,
+    comments: 5,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusantium corrupti aliquid ipsum aspernatur. Minus voluptate magnam excepturi. Nihil, odio magnam, aliquid quod sunt fugiat assumenda cumque repudiandae eligendi eum id nobis labore. Nesciunt minima veniam quis cum. Molestiae, culpa.",
-    days: 5,
-    rating: 1.2,
-    intensity: 3
+      "Nihil, odio magnam, aliquid quod sunt fugiat assumenda cumque repudiandae eligendi eum id nobis labore. Nesciunt minima veniam quis cum. Molestiae, culpa.",
+    days: 3,
+    rating: 0.5,
+    intensity: 1
   }
 ];
 
