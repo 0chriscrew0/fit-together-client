@@ -88,7 +88,7 @@ const MealPlanCard: React.FunctionComponent<Props> = ({
       <div className="footer">
         <div className="price">{price}</div>
         <div className="days">
-          <span>{days}/7</span>
+          <span>{days} days per week</span>
         </div>
       </div>
     </div>

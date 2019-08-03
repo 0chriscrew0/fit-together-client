@@ -95,8 +95,8 @@ const RoutineCard: React.FunctionComponent<Props> = ({
         >
           {getIntensity(intensity)}
         </div>
-        <div className="duration">
-          <span>{days}/7</span>
+        <div className="days">
+          <span>{days} days per week</span>
         </div>
       </div>
     </div>
