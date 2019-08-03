@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fcff2a78a78b58ee221e6e0853f3ffa",
+    "revision": "ec0065fbfa3396d72b618e533d63e4d5",
     "url": "/fit-together/index.html"
   },
   {
-    "revision": "c7fc337e090a2d33bc1a",
+    "revision": "72b71b82a108770984e1",
     "url": "/fit-together/static/css/main.22329e77.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fit-together/static/js/2.c0c1db86.chunk.js"
   },
   {
-    "revision": "c7fc337e090a2d33bc1a",
-    "url": "/fit-together/static/js/main.23af03ed.chunk.js"
+    "revision": "72b71b82a108770984e1",
+    "url": "/fit-together/static/js/main.b738b4a3.chunk.js"
   },
   {
     "revision": "a4e75f8284930621b099",
