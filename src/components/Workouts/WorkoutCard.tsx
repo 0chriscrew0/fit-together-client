@@ -99,7 +99,8 @@ const WorkoutCard: React.FunctionComponent<Props> = ({
           {getIntensity(intensity)}
         </div>
         <div className="duration">
-          <span>{`${duration.hours}h ${duration.minutes}m`}</span>
+          <span>{`${duration.hours !== 0 ? duration.hours + "h" : ""} 
+           ${duration.minutes !== 0 ? duration.minutes + "m" : ""}`}</span>
         </div>
       </div>
     </div>
