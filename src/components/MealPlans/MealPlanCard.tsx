@@ -3,6 +3,7 @@ import StarRatingComponent from "react-star-rating-component";
 import moment from "moment";
 
 import DefaultPic from "../../img/profile-pic.jpeg";
+import getPrice from "../../utils/getPrice";
 
 interface Props {
   title: string;
@@ -86,7 +87,7 @@ const MealPlanCard: React.FunctionComponent<Props> = ({
         <p>{description}</p>
       </div>
       <div className="footer">
-        <div className="price">{price}</div>
+        <div className="price text-primary">{getPrice(price)}</div>
         <div className="days">
           <span>{days} days per week</span>
         </div>
