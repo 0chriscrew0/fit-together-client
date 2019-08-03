@@ -27,7 +27,7 @@ const dummyData = [
       minutes: 30
     },
     rating: 4,
-    intensity: 7
+    intensity: 0
   },
   {
     title: "Insane Workout",
@@ -44,7 +44,7 @@ const dummyData = [
       minutes: 45
     },
     rating: 5,
-    intensity: 9.4
+    intensity: 4
   },
   {
     title: "Easy Warmup",
@@ -61,7 +61,7 @@ const dummyData = [
       minutes: 10
     },
     rating: 4.7,
-    intensity: 2
+    intensity: 3
   },
   {
     title: "Great Cooldown",
@@ -78,7 +78,7 @@ const dummyData = [
       minutes: 15
     },
     rating: 4.2,
-    intensity: 4
+    intensity: 1
   },
   {
     title: "Christmas Workout (Intense)",
@@ -95,7 +95,7 @@ const dummyData = [
       minutes: 15
     },
     rating: 4.8,
-    intensity: 10
+    intensity: 2
   },
   {
     title: "My first workout!",
@@ -112,7 +112,7 @@ const dummyData = [
       minutes: 0
     },
     rating: 1.2,
-    intensity: 3
+    intensity: 0
   }
 ];
 
