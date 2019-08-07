@@ -1,11 +1,14 @@
 .filters {
   margin-top: 1rem;
-  padding: 0 1rem;
+  padding: 0;
 
   .rating {
     .star-buttons {
       display: flex;
       justify-content: space-between;
+      i {
+        font-size: 0.6rem;
+      }
     }
   }
 
@@ -13,6 +16,9 @@
     .time-buttons {
       display: flex;
       justify-content: space-between;
+      button {
+        font-size: 0.6rem;
+      }
     }
   }
 
@@ -28,5 +34,26 @@
       font-size: 0.8rem;
       margin-bottom: 0.2rem;
     }
+  }
+
+  @include media-breakpoint-up(sm) {
+    .rating {
+      .star-buttons {
+        i {
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .duration {
+      .time-buttons {
+        button {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 0 1rem;
   }
 }

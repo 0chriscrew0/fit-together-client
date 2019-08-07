@@ -7855,19 +7855,31 @@ body {
 
 .filters {
   margin-top: 1rem;
-  padding: 0 1rem; }
+  padding: 0; }
   .filters .rating .star-buttons {
     display: flex;
     justify-content: space-between; }
+    .filters .rating .star-buttons i {
+      font-size: 0.6rem; }
   .filters .duration .time-buttons {
     display: flex;
     justify-content: space-between; }
+    .filters .duration .time-buttons button {
+      font-size: 0.6rem; }
   .filters .price .price-buttons {
     display: flex;
     justify-content: space-between; }
   .filters .intensity label {
     font-size: 0.8rem;
     margin-bottom: 0.2rem; }
+  @media (min-width: 576px) {
+    .filters .rating .star-buttons i {
+      font-size: 0.8rem; }
+    .filters .duration .time-buttons button {
+      font-size: 1rem; } }
+  @media (min-width: 992px) {
+    .filters {
+      padding: 0 1rem; } }
 
 .coming-soon {
   text-align: center;
@@ -8120,7 +8132,6 @@ body {
         font-size: 0.6rem;
         vertical-align: top; }
   .workouts .workouts-filter {
-    display: none;
     padding: 0;
     width: 95%;
     margin: 0 auto; }
@@ -8133,9 +8144,6 @@ body {
         margin-bottom: 0; }
     .workouts .workouts-filter .filters {
       background-color: #f9f9f9; }
-  @media (min-width: 768px) {
-    .workouts .workouts-filter {
-      display: block; } }
 
 .routines {
   background-color: #e6ecf0;

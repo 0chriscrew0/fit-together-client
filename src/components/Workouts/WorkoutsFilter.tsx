@@ -3,11 +3,13 @@ import * as React from "react";
 const WorkoutsFilter: React.FunctionComponent = () => (
   <div className="workouts-filter">
     <div className="filter-header">
-      <h5>Filter</h5>
-      <button className="btn btn-sm btn-primary">Apply</button>
+      <h5 className="d-none d-lg-block">Filter</h5>
+      <button className="btn btn-sm btn-primary d-none d-lg-block">
+        Apply
+      </button>
     </div>
     <div className="filters">
-      <div className="rating pt-4">
+      <div className="rating pt-lg-4">
         <h6>Rating</h6>
         <div className="form-group">
           <select

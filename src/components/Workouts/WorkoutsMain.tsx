@@ -2,6 +2,7 @@ import * as React from "react";
 import moment from "moment";
 
 import WorkoutCard from "./WorkoutCard";
+import WorkoutsFilter from "./WorkoutsFilter";
 
 moment.relativeTimeRounding(Math.floor);
 
@@ -120,11 +121,61 @@ const WorkoutsMain: React.FunctionComponent = () => (
   <div className="workouts-main">
     <div className="workouts-main-header">
       <h5>Workouts</h5>
-      <button className="btn btn-sm btn-primary">
-        New Workout
-        <i className="fas fa-dumbbell pl-2" />
-        <i className="fas fa-plus plus-icon" />
-      </button>
+      <div>
+        <button
+          className="btn border-0 mr-2 p-1 d-lg-none"
+          data-toggle="modal"
+          data-target="#filterModal"
+        >
+          <i className="fas fa-sliders-h text-primary" />
+        </button>
+        <div
+          className="modal fade"
+          id="filterModal"
+          tabIndex={-1}
+          role="dialog"
+          aria-labelledby="filterModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="filterModalLabel">
+                  Filters
+                </h5>
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <WorkoutsFilter />
+              </div>
+              <div className="modal-footer">
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="button" className="btn btn-primary">
+                  Apply
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button className="btn btn-sm btn-primary">
+          New Workout
+          <i className="fas fa-dumbbell pl-2" />
+          <i className="fas fa-plus plus-icon" />
+        </button>
+      </div>
     </div>
 
     <WorkoutCard {...dummyData[0]} />
