@@ -8196,7 +8196,6 @@ body {
         font-size: 0.6rem;
         vertical-align: top; }
   .meal-plans .meal-plans-filter {
-    display: none;
     padding: 0;
     width: 95%;
     margin: 0 auto; }
@@ -8209,6 +8208,3 @@ body {
         margin-bottom: 0; }
     .meal-plans .meal-plans-filter .filters {
       background-color: #f9f9f9; }
-  @media (min-width: 768px) {
-    .meal-plans .meal-plans-filter {
-      display: block; } }
