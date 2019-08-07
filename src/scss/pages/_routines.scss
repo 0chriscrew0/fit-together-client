@@ -22,7 +22,6 @@
   }
 
   .routines-filter {
-    display: none;
     padding: 0;
     width: 95%;
     margin: 0 auto;
@@ -37,12 +36,6 @@
     }
     .filters {
       background-color: $white;
-    }
-  }
-
-  @include media-breakpoint-up(md) {
-    .routines-filter {
-      display: block;
     }
   }
 }

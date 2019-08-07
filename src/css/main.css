@@ -8164,7 +8164,6 @@ body {
         font-size: 0.6rem;
         vertical-align: top; }
   .routines .routines-filter {
-    display: none;
     padding: 0;
     width: 95%;
     margin: 0 auto; }
@@ -8177,9 +8176,6 @@ body {
         margin-bottom: 0; }
     .routines .routines-filter .filters {
       background-color: #f9f9f9; }
-  @media (min-width: 768px) {
-    .routines .routines-filter {
-      display: block; } }
 
 .meal-plans {
   background-color: #e6ecf0;

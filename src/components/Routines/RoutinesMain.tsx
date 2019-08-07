@@ -2,6 +2,7 @@ import * as React from "react";
 import moment from "moment";
 
 import RoutineCard from "./RoutineCard";
+import RoutinesFilter from "./RoutinesFilter";
 
 moment.relativeTimeRounding(Math.floor);
 
@@ -101,11 +102,61 @@ const RoutinesMain: React.FunctionComponent = () => (
   <div className="routines-main">
     <div className="routines-main-header">
       <h5>Routines</h5>
-      <button className="btn btn-sm btn-primary">
-        New Routine
-        <i className="fas fa-clock pl-2" />
-        <i className="fas fa-plus plus-icon" />
-      </button>
+      <div>
+        <button
+          className="btn border-0 mr-2 p-1 d-lg-none"
+          data-toggle="modal"
+          data-target="#filterModal"
+        >
+          <i className="fas fa-sliders-h text-primary" />
+        </button>
+        <div
+          className="modal fade"
+          id="filterModal"
+          tabIndex={-1}
+          role="dialog"
+          aria-labelledby="filterModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="filterModalLabel">
+                  Filters
+                </h5>
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <RoutinesFilter />
+              </div>
+              <div className="modal-footer">
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="button" className="btn btn-primary">
+                  Apply
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button className="btn btn-sm btn-primary">
+          New Routine
+          <i className="fas fa-clock pl-2" />
+          <i className="fas fa-plus plus-icon" />
+        </button>
+      </div>
     </div>
 
     <RoutineCard {...dummyData[0]} />
