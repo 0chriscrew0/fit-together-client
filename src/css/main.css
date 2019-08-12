@@ -7717,17 +7717,20 @@ body {
   background-color: #f9f9f9; }
   .feed-post .header {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: flex-end; }
     .feed-post .header .user {
       display: flex; }
       .feed-post .header .user img {
-        width: 2.6rem;
+        width: 2.4rem;
         height: 100%; }
-      .feed-post .header .user h6 {
+      .feed-post .header .user span {
+        margin-left: 0.4rem;
         align-self: flex-end;
         vertical-align: bottom;
-        margin-bottom: 0;
-        margin-left: 0.6rem; }
+        line-height: 0.8rem; }
+      .feed-post .header .user .date {
+        font-size: 0.8rem; }
     .feed-post .header .feedback {
       display: flex;
       align-items: flex-end;

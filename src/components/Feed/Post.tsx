@@ -1,17 +1,19 @@
 import * as React from "react";
 
 import DefaultPicture from "../../img/profile-pic.jpeg";
+import moment from "moment";
 
 interface Props {
   username: string;
   profilePic?: string;
+  date: string;
   likes: number;
   comments: number;
   content: string;
 }
 
 const Post: React.FunctionComponent<Props> = props => {
-  const { username, profilePic, likes, comments, content } = props;
+  const { username, profilePic, date, likes, comments, content } = props;
   return (
     <div className="feed-post">
       <div className="header">
@@ -21,7 +23,10 @@ const Post: React.FunctionComponent<Props> = props => {
             src={profilePic ? profilePic : DefaultPicture}
             alt="User Profile"
           />
-          <h6>{username}</h6>
+          <span>{username}</span>
+          <span className="date text-muted">
+            {moment(date, "YYYYMMDDHH:mm:ss").fromNow()}
+          </span>
         </div>
         <div className="feedback">
           <span className="likes">
