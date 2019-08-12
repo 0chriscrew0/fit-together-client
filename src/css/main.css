@@ -7766,7 +7766,7 @@ body {
 .routine-card,
 .meal-plan-card {
   width: 95%;
-  margin: 1rem auto;
+  margin: 0.6rem auto;
   background-color: #f9f9f9; }
   .workout-card .header,
   .routine-card .header,
@@ -7854,7 +7854,7 @@ body {
     font-size: 0.8rem; }
 
 .filters {
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   padding: 0; }
   .filters .rating .star-buttons {
     display: flex;
