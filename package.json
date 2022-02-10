@@ -46,7 +46,7 @@
     "@types/react-router-dom": "^4.3.3",
     "@types/react-star-rating-component": "^1.4.0",
     "concurrently": "^4.1.0",
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   },
   "homepage": "http://0chriscrew0.github.io/fit-together/"
 }
